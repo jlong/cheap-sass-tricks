@@ -1,0 +1,69 @@
+$background: black;
+$radar-color: lighten(green, 50%);
+$radar-length: 18;
+$radar-trail: 5;
+$dot-size: 15px;
+$dot-spacing: 3px;
+
+$data:
+  (0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0),
+  (0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0),
+  (0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0),
+  (0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 1 1 0 0 1 0 0 1 0 1 1 1 1 0 0 0 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 1 1 0),
+  (1 0 0 0 0 1 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 1 0 1 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1),
+  (0 1 1 0 0 1 0 0 1 0 o 1 1 o 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 1 0),
+  (0 0 0 1 0 1 1 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1),
+  (1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1),
+  (0 1 1 0 0 1 0 0 1 0 0 1 1 o 0 0 1 1 0 0 0 0 0 1 1 0 0 0 1 1 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 1 1 1 0 0 1 1 0 0 1 1 1 0 0 1 1 0);
+
+$frames: length(nth($data, 1)) + 10;
+
+@function box-shadow-for-frame($frame, $transparency) {
+  $shadows: (); // empty list
+  @for $i from 1 through $radar-length {
+    $color: rgba($radar-color, 0.2 * $transparency);
+    @if $frame > 0 and $i <= length($data) and $frame <= length(nth($data, $i)) and nth(nth($data, $i), $frame) == 1 {
+      $color: rgba($radar-color, 1 * $transparency);
+    }
+    $shadow: -((($dot-size + $dot-spacing) * ($radar-length - $i))) 0 $color;
+    $shadows: append($shadows, $shadow, comma);
+  }
+  @return $shadows;
+}
+
+body { background: $background; }
+
+.radar {
+  margin: 0;
+  padding: 0;
+}
+
+.radar li {
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: $radar-color;
+  width: $dot-size;
+  height: $dot-size;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@for $i from 1 through 10 {
+  .radar li:nth-child(#{$i}) {
+    -webkit-animation: radar-#{$i} 2s infinite steps(1, start);
+    -webkit-transform: rotateZ(0deg);
+    box-shadow: box-shadow-for-frame(-10, $i / 10);
+  }
+
+  @-webkit-keyframes radar-#{$i} {
+    @for $frame from 1 through $frames {
+      #{100% / $frames * $frame} {
+        -webkit-transform: rotateZ(360deg / $frames * ($frame - 10 + $i));
+        box-shadow: box-shadow-for-frame($frame - 10 + $i, $i / 10);
+      }
+    }
+  }
+}

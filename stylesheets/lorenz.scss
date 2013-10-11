@@ -1,0 +1,46 @@
+@function lmao($orig-color, $iterations, $sx, $sy, $sz) {
+  $output: '';
+  $end: $iterations;
+ 
+  $x0: $sx / 10;
+  $y0: $sy;
+  $z0: $sz;
+  $h: 0.01;
+  $a: 10.0;
+  $b: 28.0;
+  $c: 8.0 / 3.0;
+ 
+  @for $i from 0 through $end {
+    $x1: $x0 + $h * $a * ($y0 - $x0);
+    $y1: $y0 + $h * ($x0 * ($b - $z0) - $y0);
+    $z1: $z0 + $h * ($x0 * $y0 - $c * $z0);
+ 
+    $xval: $x1 * -50;
+    $yval: $y1 * -20;
+    $spread: $z1 * .1;
+ 
+    $color: rgba($orig-color, ($i / $end));
+    $color: adjust-hue($color, $z1);
+ 
+    $output: $output + '#{$color} #{$xval}px #{$yval}px #{$spread}px';
+     @if $i < $end {
+       $output: $output + ', ';
+     }
+ 
+     $x0: $x1;
+     $y0: $y1;
+     $z0: $z1;
+  }
+ 
+  @return unquote($output);
+}
+
+.asterisk {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 48px;
+  margin-top: -0.5em;
+  margin-left: -0.25em;
+  text-shadow: lmao(red, 1000, 6, 4, 6);
+}
