@@ -1,4 +1,5 @@
 var pages = [
+  '/start',
   '/pbj',
   '/lorenz',
   '/spinner',
