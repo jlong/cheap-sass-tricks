@@ -1,3 +1,9 @@
+body {
+  text-align: center;
+  padding: 220px 0;
+  margin: 0;
+}
+
 @-webkit-keyframes plus-top {
   2.5% {
     background: #ff8866;
@@ -1370,15 +1376,11 @@
   }
 }
 
-body {
-  text-align: center;
-  padding: 100px;
-}
-
 /* Styles for old versions of IE */
 .plus {
   font-family: sans-serif;
   font-weight: 100;
+  margin-top: -25px;
 }
 
 /* :not(:required) hides this rule from IE9 and below */
@@ -1387,14 +1389,12 @@ body {
   position: relative;
   text-indent: -9999px;
   display: inline-block;
-  width: 96px;
-  height: 96px;
+  width: 300px;
+  height: 300px;
   background: #ff8866;
-  -webkit-border-radius: 48px;
-  -moz-border-radius: 48px;
-  -ms-border-radius: 48px;
-  -o-border-radius: 48px;
-  border-radius: 48px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
   -webkit-transform: rotateZ(90deg);
   -moz-transform: rotateZ(90deg);
   -ms-transform: rotateZ(90deg);
@@ -1413,11 +1413,9 @@ body {
 }
 .plus:not(:required)::after {
   background: #ff8866;
-  -webkit-border-radius: 48px 0 0 48px;
-  -moz-border-radius: 48px 0 0 48px;
-  -ms-border-radius: 48px 0 0 48px;
-  -o-border-radius: 48px 0 0 48px;
-  border-radius: 48px 0 0 48px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px 0 0 150px;
+  border-radius: 150px 0 0 150px;
   content: '';
   position: absolute;
   right: 50%;
@@ -1437,11 +1435,9 @@ body {
 }
 .plus:not(:required)::before {
   background: #ffcc66;
-  -webkit-border-radius: 48px 0 0 48px;
-  -moz-border-radius: 48px 0 0 48px;
-  -ms-border-radius: 48px 0 0 48px;
-  -o-border-radius: 48px 0 0 48px;
-  border-radius: 48px 0 0 48px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px 0 0 150px;
+  border-radius: 150px 0 0 150px;
   content: '';
   position: absolute;
   right: 50%;

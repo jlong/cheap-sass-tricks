@@ -1,6 +1,6 @@
-@import "compass/css3";
+@import "base";
 
-$plus-size: 96px;
+$plus-size: 300px;
 $plus-speed: 3s;
 $plus-colors: #f86 #fc6 #6d7 #4ae;
 
@@ -8,21 +8,6 @@ $plus-color-1: nth($plus-colors, 1);
 $plus-color-2: nth($plus-colors, 2);
 $plus-color-3: nth($plus-colors, 3);
 $plus-color-4: nth($plus-colors, 4);
-
-@mixin keyframes($name) {
-  @-webkit-keyframes $name { @content }
-  @-moz-keyframes $name { @content }
-  @-o-keyframes $name { @content }
-  @keyframes $name { @content }
-}
-
-@mixin animation($value) {
-  @include experimental(animation, $value, -webkit, -moz, -ms, -o, official);
-}
-
-@mixin animation-timing-function($value) {
-  @include experimental(animation-timing-function, $value, -webkit, -moz, -ms, -o, official);
-}
 
 @include keyframes(plus-top) {
   2.5% {
@@ -63,7 +48,6 @@ $plus-color-4: nth($plus-colors, 4);
     background: $plus-color-3;
     @include transform(rotateY(0deg));
   }
-  
   
   52.5% {
     background: $plus-color-3;
@@ -165,15 +149,11 @@ $plus-color-4: nth($plus-colors, 4);
   }
 }
 
-body {
-  text-align: center;
-  padding: 100px;
-}
-
 /* Styles for old versions of IE */
 .plus {
   font-family: sans-serif;
   font-weight: 100;
+  margin-top: -25px;
 }
 
 /* :not(:required) hides this rule from IE9 and below */

@@ -1,0 +1,8709 @@
+@charset "UTF-8";
+body {
+  font-family: courier;
+  background: black;
+  overflow: hidden;
+}
+
+.matrix {
+  list-style-type: none;
+  color: #80ff80;
+  font-size: 18px;
+  line-height: 24px;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+.matrix, .matrix li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.matrix li:nth-child(1) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(1):before {
+  display: block;
+  width: 1em;
+  content: "き ラ し ょ ョ た う ワ ョ ウ ょ リ バ ょ ょ ク ラ わ ん こ ょ ょ ン う う マ ば ド ソ コ";
+}
+.matrix li:nth-child(1):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 552px, #000000 552px, #000000 720px) 0 -480px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ょ";
+  padding-top: 72px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-1 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-1 {
+  0% {
+    background-position: 0 -480px;
+    padding-top: 72px;
+  }
+
+  3.33333% {
+    background-position: 0 -456px;
+    padding-top: 96px;
+  }
+
+  6.66667% {
+    background-position: 0 -432px;
+    padding-top: 120px;
+  }
+
+  10% {
+    background-position: 0 -408px;
+    padding-top: 144px;
+  }
+
+  13.33333% {
+    background-position: 0 -384px;
+    padding-top: 168px;
+  }
+
+  16.66667% {
+    background-position: 0 -360px;
+    padding-top: 192px;
+  }
+
+  20% {
+    background-position: 0 -336px;
+    padding-top: 216px;
+  }
+
+  23.33333% {
+    background-position: 0 -312px;
+    padding-top: 240px;
+  }
+
+  26.66667% {
+    background-position: 0 -288px;
+    padding-top: 264px;
+  }
+
+  30% {
+    background-position: 0 -264px;
+    padding-top: 288px;
+  }
+
+  33.33333% {
+    background-position: 0 -240px;
+    padding-top: 312px;
+  }
+
+  36.66667% {
+    background-position: 0 -216px;
+    padding-top: 336px;
+  }
+
+  40% {
+    background-position: 0 -192px;
+    padding-top: 360px;
+  }
+
+  43.33333% {
+    background-position: 0 -168px;
+    padding-top: 384px;
+  }
+
+  46.66667% {
+    background-position: 0 -144px;
+    padding-top: 408px;
+  }
+
+  50% {
+    background-position: 0 -120px;
+    padding-top: 432px;
+  }
+
+  53.33333% {
+    background-position: 0 -96px;
+    padding-top: 456px;
+  }
+
+  56.66667% {
+    background-position: 0 -72px;
+    padding-top: 480px;
+  }
+
+  60% {
+    background-position: 0 -48px;
+    padding-top: 504px;
+  }
+
+  63.33333% {
+    background-position: 0 -24px;
+    padding-top: 528px;
+  }
+
+  66.66667% {
+    background-position: 0 0px;
+    padding-top: 552px;
+  }
+
+  70% {
+    background-position: 0 24px;
+    padding-top: 576px;
+  }
+
+  73.33333% {
+    background-position: 0 48px;
+    padding-top: 600px;
+  }
+
+  76.66667% {
+    background-position: 0 72px;
+    padding-top: 624px;
+  }
+
+  80% {
+    background-position: 0 96px;
+    padding-top: 648px;
+  }
+
+  83.33333% {
+    background-position: 0 120px;
+    padding-top: 672px;
+  }
+
+  86.66667% {
+    background-position: 0 144px;
+    padding-top: 696px;
+  }
+
+  90% {
+    background-position: 0 -552px;
+    padding-top: 0px;
+  }
+
+  93.33333% {
+    background-position: 0 -528px;
+    padding-top: 24px;
+  }
+
+  96.66667% {
+    background-position: 0 -504px;
+    padding-top: 48px;
+  }
+}
+
+.matrix li:nth-child(2) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(2):before {
+  display: block;
+  width: 1em;
+  content: "タ ン た た バ シ こ こ ョ し コ リ わ ょ ョ う ょ き ョ う ョ う マ ク ラ わ わ キ と ト";
+}
+.matrix li:nth-child(2):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 192px, #000000 192px, #000000 720px) 0 336px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "マ";
+  padding-top: 528px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-2 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-2 {
+  0% {
+    background-position: 0 336px;
+    padding-top: 528px;
+  }
+
+  3.33333% {
+    background-position: 0 360px;
+    padding-top: 552px;
+  }
+
+  6.66667% {
+    background-position: 0 384px;
+    padding-top: 576px;
+  }
+
+  10% {
+    background-position: 0 408px;
+    padding-top: 600px;
+  }
+
+  13.33333% {
+    background-position: 0 432px;
+    padding-top: 624px;
+  }
+
+  16.66667% {
+    background-position: 0 456px;
+    padding-top: 648px;
+  }
+
+  20% {
+    background-position: 0 480px;
+    padding-top: 672px;
+  }
+
+  23.33333% {
+    background-position: 0 504px;
+    padding-top: 696px;
+  }
+
+  26.66667% {
+    background-position: 0 -192px;
+    padding-top: 0px;
+  }
+
+  30% {
+    background-position: 0 -168px;
+    padding-top: 24px;
+  }
+
+  33.33333% {
+    background-position: 0 -144px;
+    padding-top: 48px;
+  }
+
+  36.66667% {
+    background-position: 0 -120px;
+    padding-top: 72px;
+  }
+
+  40% {
+    background-position: 0 -96px;
+    padding-top: 96px;
+  }
+
+  43.33333% {
+    background-position: 0 -72px;
+    padding-top: 120px;
+  }
+
+  46.66667% {
+    background-position: 0 -48px;
+    padding-top: 144px;
+  }
+
+  50% {
+    background-position: 0 -24px;
+    padding-top: 168px;
+  }
+
+  53.33333% {
+    background-position: 0 0px;
+    padding-top: 192px;
+  }
+
+  56.66667% {
+    background-position: 0 24px;
+    padding-top: 216px;
+  }
+
+  60% {
+    background-position: 0 48px;
+    padding-top: 240px;
+  }
+
+  63.33333% {
+    background-position: 0 72px;
+    padding-top: 264px;
+  }
+
+  66.66667% {
+    background-position: 0 96px;
+    padding-top: 288px;
+  }
+
+  70% {
+    background-position: 0 120px;
+    padding-top: 312px;
+  }
+
+  73.33333% {
+    background-position: 0 144px;
+    padding-top: 336px;
+  }
+
+  76.66667% {
+    background-position: 0 168px;
+    padding-top: 360px;
+  }
+
+  80% {
+    background-position: 0 192px;
+    padding-top: 384px;
+  }
+
+  83.33333% {
+    background-position: 0 216px;
+    padding-top: 408px;
+  }
+
+  86.66667% {
+    background-position: 0 240px;
+    padding-top: 432px;
+  }
+
+  90% {
+    background-position: 0 264px;
+    padding-top: 456px;
+  }
+
+  93.33333% {
+    background-position: 0 288px;
+    padding-top: 480px;
+  }
+
+  96.66667% {
+    background-position: 0 312px;
+    padding-top: 504px;
+  }
+}
+
+.matrix li:nth-child(3) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(3):before {
+  display: block;
+  width: 1em;
+  content: "ラ フ と キ わ う ョ ン ク ょ こ ョ ン ラ リ ソ た し ン と ん タ キ ド し き フ ば と と";
+}
+.matrix li:nth-child(3):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 408px, #000000 408px, #000000 720px) 0 -48px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ソ";
+  padding-top: 360px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-3 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-3 {
+  0% {
+    background-position: 0 -48px;
+    padding-top: 360px;
+  }
+
+  3.33333% {
+    background-position: 0 -24px;
+    padding-top: 384px;
+  }
+
+  6.66667% {
+    background-position: 0 0px;
+    padding-top: 408px;
+  }
+
+  10% {
+    background-position: 0 24px;
+    padding-top: 432px;
+  }
+
+  13.33333% {
+    background-position: 0 48px;
+    padding-top: 456px;
+  }
+
+  16.66667% {
+    background-position: 0 72px;
+    padding-top: 480px;
+  }
+
+  20% {
+    background-position: 0 96px;
+    padding-top: 504px;
+  }
+
+  23.33333% {
+    background-position: 0 120px;
+    padding-top: 528px;
+  }
+
+  26.66667% {
+    background-position: 0 144px;
+    padding-top: 552px;
+  }
+
+  30% {
+    background-position: 0 168px;
+    padding-top: 576px;
+  }
+
+  33.33333% {
+    background-position: 0 192px;
+    padding-top: 600px;
+  }
+
+  36.66667% {
+    background-position: 0 216px;
+    padding-top: 624px;
+  }
+
+  40% {
+    background-position: 0 240px;
+    padding-top: 648px;
+  }
+
+  43.33333% {
+    background-position: 0 264px;
+    padding-top: 672px;
+  }
+
+  46.66667% {
+    background-position: 0 288px;
+    padding-top: 696px;
+  }
+
+  50% {
+    background-position: 0 -408px;
+    padding-top: 0px;
+  }
+
+  53.33333% {
+    background-position: 0 -384px;
+    padding-top: 24px;
+  }
+
+  56.66667% {
+    background-position: 0 -360px;
+    padding-top: 48px;
+  }
+
+  60% {
+    background-position: 0 -336px;
+    padding-top: 72px;
+  }
+
+  63.33333% {
+    background-position: 0 -312px;
+    padding-top: 96px;
+  }
+
+  66.66667% {
+    background-position: 0 -288px;
+    padding-top: 120px;
+  }
+
+  70% {
+    background-position: 0 -264px;
+    padding-top: 144px;
+  }
+
+  73.33333% {
+    background-position: 0 -240px;
+    padding-top: 168px;
+  }
+
+  76.66667% {
+    background-position: 0 -216px;
+    padding-top: 192px;
+  }
+
+  80% {
+    background-position: 0 -192px;
+    padding-top: 216px;
+  }
+
+  83.33333% {
+    background-position: 0 -168px;
+    padding-top: 240px;
+  }
+
+  86.66667% {
+    background-position: 0 -144px;
+    padding-top: 264px;
+  }
+
+  90% {
+    background-position: 0 -120px;
+    padding-top: 288px;
+  }
+
+  93.33333% {
+    background-position: 0 -96px;
+    padding-top: 312px;
+  }
+
+  96.66667% {
+    background-position: 0 -72px;
+    padding-top: 336px;
+  }
+}
+
+.matrix li:nth-child(4) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(4):before {
+  display: block;
+  width: 1em;
+  content: "ラ ソ ょ き タ ラ と フ ば ン コ わ ウ タ ョ フ う タ ば コ う ば ト ワ シ ク ョ ょ ラ キ";
+}
+.matrix li:nth-child(4):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 672px, #000000 672px, #000000 720px) 0 -408px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "わ";
+  padding-top: 264px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-4 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-4 {
+  0% {
+    background-position: 0 -408px;
+    padding-top: 264px;
+  }
+
+  3.33333% {
+    background-position: 0 -384px;
+    padding-top: 288px;
+  }
+
+  6.66667% {
+    background-position: 0 -360px;
+    padding-top: 312px;
+  }
+
+  10% {
+    background-position: 0 -336px;
+    padding-top: 336px;
+  }
+
+  13.33333% {
+    background-position: 0 -312px;
+    padding-top: 360px;
+  }
+
+  16.66667% {
+    background-position: 0 -288px;
+    padding-top: 384px;
+  }
+
+  20% {
+    background-position: 0 -264px;
+    padding-top: 408px;
+  }
+
+  23.33333% {
+    background-position: 0 -240px;
+    padding-top: 432px;
+  }
+
+  26.66667% {
+    background-position: 0 -216px;
+    padding-top: 456px;
+  }
+
+  30% {
+    background-position: 0 -192px;
+    padding-top: 480px;
+  }
+
+  33.33333% {
+    background-position: 0 -168px;
+    padding-top: 504px;
+  }
+
+  36.66667% {
+    background-position: 0 -144px;
+    padding-top: 528px;
+  }
+
+  40% {
+    background-position: 0 -120px;
+    padding-top: 552px;
+  }
+
+  43.33333% {
+    background-position: 0 -96px;
+    padding-top: 576px;
+  }
+
+  46.66667% {
+    background-position: 0 -72px;
+    padding-top: 600px;
+  }
+
+  50% {
+    background-position: 0 -48px;
+    padding-top: 624px;
+  }
+
+  53.33333% {
+    background-position: 0 -24px;
+    padding-top: 648px;
+  }
+
+  56.66667% {
+    background-position: 0 0px;
+    padding-top: 672px;
+  }
+
+  60% {
+    background-position: 0 24px;
+    padding-top: 696px;
+  }
+
+  63.33333% {
+    background-position: 0 -672px;
+    padding-top: 0px;
+  }
+
+  66.66667% {
+    background-position: 0 -648px;
+    padding-top: 24px;
+  }
+
+  70% {
+    background-position: 0 -624px;
+    padding-top: 48px;
+  }
+
+  73.33333% {
+    background-position: 0 -600px;
+    padding-top: 72px;
+  }
+
+  76.66667% {
+    background-position: 0 -576px;
+    padding-top: 96px;
+  }
+
+  80% {
+    background-position: 0 -552px;
+    padding-top: 120px;
+  }
+
+  83.33333% {
+    background-position: 0 -528px;
+    padding-top: 144px;
+  }
+
+  86.66667% {
+    background-position: 0 -504px;
+    padding-top: 168px;
+  }
+
+  90% {
+    background-position: 0 -480px;
+    padding-top: 192px;
+  }
+
+  93.33333% {
+    background-position: 0 -456px;
+    padding-top: 216px;
+  }
+
+  96.66667% {
+    background-position: 0 -432px;
+    padding-top: 240px;
+  }
+}
+
+.matrix li:nth-child(5) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(5):before {
+  display: block;
+  width: 1em;
+  content: "ョ シ し コ ン わ タ と ド コ ラ ラ こ き シ ク う ょ タ と ョ ょ ん ょ シ と ョ コ シ ょ";
+}
+.matrix li:nth-child(5):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 384px, #000000 384px, #000000 720px) 0 288px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "シ";
+  padding-top: 672px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-5 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-5 {
+  0% {
+    background-position: 0 288px;
+    padding-top: 672px;
+  }
+
+  3.33333% {
+    background-position: 0 312px;
+    padding-top: 696px;
+  }
+
+  6.66667% {
+    background-position: 0 -384px;
+    padding-top: 0px;
+  }
+
+  10% {
+    background-position: 0 -360px;
+    padding-top: 24px;
+  }
+
+  13.33333% {
+    background-position: 0 -336px;
+    padding-top: 48px;
+  }
+
+  16.66667% {
+    background-position: 0 -312px;
+    padding-top: 72px;
+  }
+
+  20% {
+    background-position: 0 -288px;
+    padding-top: 96px;
+  }
+
+  23.33333% {
+    background-position: 0 -264px;
+    padding-top: 120px;
+  }
+
+  26.66667% {
+    background-position: 0 -240px;
+    padding-top: 144px;
+  }
+
+  30% {
+    background-position: 0 -216px;
+    padding-top: 168px;
+  }
+
+  33.33333% {
+    background-position: 0 -192px;
+    padding-top: 192px;
+  }
+
+  36.66667% {
+    background-position: 0 -168px;
+    padding-top: 216px;
+  }
+
+  40% {
+    background-position: 0 -144px;
+    padding-top: 240px;
+  }
+
+  43.33333% {
+    background-position: 0 -120px;
+    padding-top: 264px;
+  }
+
+  46.66667% {
+    background-position: 0 -96px;
+    padding-top: 288px;
+  }
+
+  50% {
+    background-position: 0 -72px;
+    padding-top: 312px;
+  }
+
+  53.33333% {
+    background-position: 0 -48px;
+    padding-top: 336px;
+  }
+
+  56.66667% {
+    background-position: 0 -24px;
+    padding-top: 360px;
+  }
+
+  60% {
+    background-position: 0 0px;
+    padding-top: 384px;
+  }
+
+  63.33333% {
+    background-position: 0 24px;
+    padding-top: 408px;
+  }
+
+  66.66667% {
+    background-position: 0 48px;
+    padding-top: 432px;
+  }
+
+  70% {
+    background-position: 0 72px;
+    padding-top: 456px;
+  }
+
+  73.33333% {
+    background-position: 0 96px;
+    padding-top: 480px;
+  }
+
+  76.66667% {
+    background-position: 0 120px;
+    padding-top: 504px;
+  }
+
+  80% {
+    background-position: 0 144px;
+    padding-top: 528px;
+  }
+
+  83.33333% {
+    background-position: 0 168px;
+    padding-top: 552px;
+  }
+
+  86.66667% {
+    background-position: 0 192px;
+    padding-top: 576px;
+  }
+
+  90% {
+    background-position: 0 216px;
+    padding-top: 600px;
+  }
+
+  93.33333% {
+    background-position: 0 240px;
+    padding-top: 624px;
+  }
+
+  96.66667% {
+    background-position: 0 264px;
+    padding-top: 648px;
+  }
+}
+
+.matrix li:nth-child(6) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(6):before {
+  display: block;
+  width: 1em;
+  content: "フ バ し ば し ょ う ン ク ラ ト タ ラ し フ わ ょ ょ た コ う バ バ ウ う き ソ ラ コ ド";
+}
+.matrix li:nth-child(6):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 144px, #000000 144px, #000000 720px) 0 -120px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "バ";
+  padding-top: 24px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-6 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-6 {
+  0% {
+    background-position: 0 -120px;
+    padding-top: 24px;
+  }
+
+  3.33333% {
+    background-position: 0 -96px;
+    padding-top: 48px;
+  }
+
+  6.66667% {
+    background-position: 0 -72px;
+    padding-top: 72px;
+  }
+
+  10% {
+    background-position: 0 -48px;
+    padding-top: 96px;
+  }
+
+  13.33333% {
+    background-position: 0 -24px;
+    padding-top: 120px;
+  }
+
+  16.66667% {
+    background-position: 0 0px;
+    padding-top: 144px;
+  }
+
+  20% {
+    background-position: 0 24px;
+    padding-top: 168px;
+  }
+
+  23.33333% {
+    background-position: 0 48px;
+    padding-top: 192px;
+  }
+
+  26.66667% {
+    background-position: 0 72px;
+    padding-top: 216px;
+  }
+
+  30% {
+    background-position: 0 96px;
+    padding-top: 240px;
+  }
+
+  33.33333% {
+    background-position: 0 120px;
+    padding-top: 264px;
+  }
+
+  36.66667% {
+    background-position: 0 144px;
+    padding-top: 288px;
+  }
+
+  40% {
+    background-position: 0 168px;
+    padding-top: 312px;
+  }
+
+  43.33333% {
+    background-position: 0 192px;
+    padding-top: 336px;
+  }
+
+  46.66667% {
+    background-position: 0 216px;
+    padding-top: 360px;
+  }
+
+  50% {
+    background-position: 0 240px;
+    padding-top: 384px;
+  }
+
+  53.33333% {
+    background-position: 0 264px;
+    padding-top: 408px;
+  }
+
+  56.66667% {
+    background-position: 0 288px;
+    padding-top: 432px;
+  }
+
+  60% {
+    background-position: 0 312px;
+    padding-top: 456px;
+  }
+
+  63.33333% {
+    background-position: 0 336px;
+    padding-top: 480px;
+  }
+
+  66.66667% {
+    background-position: 0 360px;
+    padding-top: 504px;
+  }
+
+  70% {
+    background-position: 0 384px;
+    padding-top: 528px;
+  }
+
+  73.33333% {
+    background-position: 0 408px;
+    padding-top: 552px;
+  }
+
+  76.66667% {
+    background-position: 0 432px;
+    padding-top: 576px;
+  }
+
+  80% {
+    background-position: 0 456px;
+    padding-top: 600px;
+  }
+
+  83.33333% {
+    background-position: 0 480px;
+    padding-top: 624px;
+  }
+
+  86.66667% {
+    background-position: 0 504px;
+    padding-top: 648px;
+  }
+
+  90% {
+    background-position: 0 528px;
+    padding-top: 672px;
+  }
+
+  93.33333% {
+    background-position: 0 552px;
+    padding-top: 696px;
+  }
+
+  96.66667% {
+    background-position: 0 -144px;
+    padding-top: 0px;
+  }
+}
+
+.matrix li:nth-child(7) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(7):before {
+  display: block;
+  width: 1em;
+  content: "う タ マ タ ワ ョ ワ ウ ラ ョ ド う タ と ば リ し ン ラ わ キ う と ク リ ソ ょ ト わ マ";
+}
+.matrix li:nth-child(7):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 168px, #000000 168px, #000000 720px) 0 120px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "タ";
+  padding-top: 288px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-7 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-7 {
+  0% {
+    background-position: 0 120px;
+    padding-top: 288px;
+  }
+
+  3.33333% {
+    background-position: 0 144px;
+    padding-top: 312px;
+  }
+
+  6.66667% {
+    background-position: 0 168px;
+    padding-top: 336px;
+  }
+
+  10% {
+    background-position: 0 192px;
+    padding-top: 360px;
+  }
+
+  13.33333% {
+    background-position: 0 216px;
+    padding-top: 384px;
+  }
+
+  16.66667% {
+    background-position: 0 240px;
+    padding-top: 408px;
+  }
+
+  20% {
+    background-position: 0 264px;
+    padding-top: 432px;
+  }
+
+  23.33333% {
+    background-position: 0 288px;
+    padding-top: 456px;
+  }
+
+  26.66667% {
+    background-position: 0 312px;
+    padding-top: 480px;
+  }
+
+  30% {
+    background-position: 0 336px;
+    padding-top: 504px;
+  }
+
+  33.33333% {
+    background-position: 0 360px;
+    padding-top: 528px;
+  }
+
+  36.66667% {
+    background-position: 0 384px;
+    padding-top: 552px;
+  }
+
+  40% {
+    background-position: 0 408px;
+    padding-top: 576px;
+  }
+
+  43.33333% {
+    background-position: 0 432px;
+    padding-top: 600px;
+  }
+
+  46.66667% {
+    background-position: 0 456px;
+    padding-top: 624px;
+  }
+
+  50% {
+    background-position: 0 480px;
+    padding-top: 648px;
+  }
+
+  53.33333% {
+    background-position: 0 504px;
+    padding-top: 672px;
+  }
+
+  56.66667% {
+    background-position: 0 528px;
+    padding-top: 696px;
+  }
+
+  60% {
+    background-position: 0 -168px;
+    padding-top: 0px;
+  }
+
+  63.33333% {
+    background-position: 0 -144px;
+    padding-top: 24px;
+  }
+
+  66.66667% {
+    background-position: 0 -120px;
+    padding-top: 48px;
+  }
+
+  70% {
+    background-position: 0 -96px;
+    padding-top: 72px;
+  }
+
+  73.33333% {
+    background-position: 0 -72px;
+    padding-top: 96px;
+  }
+
+  76.66667% {
+    background-position: 0 -48px;
+    padding-top: 120px;
+  }
+
+  80% {
+    background-position: 0 -24px;
+    padding-top: 144px;
+  }
+
+  83.33333% {
+    background-position: 0 0px;
+    padding-top: 168px;
+  }
+
+  86.66667% {
+    background-position: 0 24px;
+    padding-top: 192px;
+  }
+
+  90% {
+    background-position: 0 48px;
+    padding-top: 216px;
+  }
+
+  93.33333% {
+    background-position: 0 72px;
+    padding-top: 240px;
+  }
+
+  96.66667% {
+    background-position: 0 96px;
+    padding-top: 264px;
+  }
+}
+
+.matrix li:nth-child(8) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(8):before {
+  display: block;
+  width: 1em;
+  content: "ン コ マ と ば ョ ラ ワ ョ フ フ ラ ソ ン シ ょ ョ う ド リ ば と ト ン シ ョ タ う タ ト";
+}
+.matrix li:nth-child(8):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 264px, #000000 264px, #000000 720px) 0 0px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ラ";
+  padding-top: 264px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-8 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-8 {
+  0% {
+    background-position: 0 0px;
+    padding-top: 264px;
+  }
+
+  3.33333% {
+    background-position: 0 24px;
+    padding-top: 288px;
+  }
+
+  6.66667% {
+    background-position: 0 48px;
+    padding-top: 312px;
+  }
+
+  10% {
+    background-position: 0 72px;
+    padding-top: 336px;
+  }
+
+  13.33333% {
+    background-position: 0 96px;
+    padding-top: 360px;
+  }
+
+  16.66667% {
+    background-position: 0 120px;
+    padding-top: 384px;
+  }
+
+  20% {
+    background-position: 0 144px;
+    padding-top: 408px;
+  }
+
+  23.33333% {
+    background-position: 0 168px;
+    padding-top: 432px;
+  }
+
+  26.66667% {
+    background-position: 0 192px;
+    padding-top: 456px;
+  }
+
+  30% {
+    background-position: 0 216px;
+    padding-top: 480px;
+  }
+
+  33.33333% {
+    background-position: 0 240px;
+    padding-top: 504px;
+  }
+
+  36.66667% {
+    background-position: 0 264px;
+    padding-top: 528px;
+  }
+
+  40% {
+    background-position: 0 288px;
+    padding-top: 552px;
+  }
+
+  43.33333% {
+    background-position: 0 312px;
+    padding-top: 576px;
+  }
+
+  46.66667% {
+    background-position: 0 336px;
+    padding-top: 600px;
+  }
+
+  50% {
+    background-position: 0 360px;
+    padding-top: 624px;
+  }
+
+  53.33333% {
+    background-position: 0 384px;
+    padding-top: 648px;
+  }
+
+  56.66667% {
+    background-position: 0 408px;
+    padding-top: 672px;
+  }
+
+  60% {
+    background-position: 0 432px;
+    padding-top: 696px;
+  }
+
+  63.33333% {
+    background-position: 0 -264px;
+    padding-top: 0px;
+  }
+
+  66.66667% {
+    background-position: 0 -240px;
+    padding-top: 24px;
+  }
+
+  70% {
+    background-position: 0 -216px;
+    padding-top: 48px;
+  }
+
+  73.33333% {
+    background-position: 0 -192px;
+    padding-top: 72px;
+  }
+
+  76.66667% {
+    background-position: 0 -168px;
+    padding-top: 96px;
+  }
+
+  80% {
+    background-position: 0 -144px;
+    padding-top: 120px;
+  }
+
+  83.33333% {
+    background-position: 0 -120px;
+    padding-top: 144px;
+  }
+
+  86.66667% {
+    background-position: 0 -96px;
+    padding-top: 168px;
+  }
+
+  90% {
+    background-position: 0 -72px;
+    padding-top: 192px;
+  }
+
+  93.33333% {
+    background-position: 0 -48px;
+    padding-top: 216px;
+  }
+
+  96.66667% {
+    background-position: 0 -24px;
+    padding-top: 240px;
+  }
+}
+
+.matrix li:nth-child(9) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(9):before {
+  display: block;
+  width: 1em;
+  content: "う バ タ キ フ ョ シ マ ン ん ン ょ タ し タ ょ ク き フ う わ フ ド き う タ ン た キ た";
+}
+.matrix li:nth-child(9):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 288px, #000000 288px, #000000 720px) 0 264px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "き";
+  padding-top: 552px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-9 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-9 {
+  0% {
+    background-position: 0 264px;
+    padding-top: 552px;
+  }
+
+  3.33333% {
+    background-position: 0 288px;
+    padding-top: 576px;
+  }
+
+  6.66667% {
+    background-position: 0 312px;
+    padding-top: 600px;
+  }
+
+  10% {
+    background-position: 0 336px;
+    padding-top: 624px;
+  }
+
+  13.33333% {
+    background-position: 0 360px;
+    padding-top: 648px;
+  }
+
+  16.66667% {
+    background-position: 0 384px;
+    padding-top: 672px;
+  }
+
+  20% {
+    background-position: 0 408px;
+    padding-top: 696px;
+  }
+
+  23.33333% {
+    background-position: 0 -288px;
+    padding-top: 0px;
+  }
+
+  26.66667% {
+    background-position: 0 -264px;
+    padding-top: 24px;
+  }
+
+  30% {
+    background-position: 0 -240px;
+    padding-top: 48px;
+  }
+
+  33.33333% {
+    background-position: 0 -216px;
+    padding-top: 72px;
+  }
+
+  36.66667% {
+    background-position: 0 -192px;
+    padding-top: 96px;
+  }
+
+  40% {
+    background-position: 0 -168px;
+    padding-top: 120px;
+  }
+
+  43.33333% {
+    background-position: 0 -144px;
+    padding-top: 144px;
+  }
+
+  46.66667% {
+    background-position: 0 -120px;
+    padding-top: 168px;
+  }
+
+  50% {
+    background-position: 0 -96px;
+    padding-top: 192px;
+  }
+
+  53.33333% {
+    background-position: 0 -72px;
+    padding-top: 216px;
+  }
+
+  56.66667% {
+    background-position: 0 -48px;
+    padding-top: 240px;
+  }
+
+  60% {
+    background-position: 0 -24px;
+    padding-top: 264px;
+  }
+
+  63.33333% {
+    background-position: 0 0px;
+    padding-top: 288px;
+  }
+
+  66.66667% {
+    background-position: 0 24px;
+    padding-top: 312px;
+  }
+
+  70% {
+    background-position: 0 48px;
+    padding-top: 336px;
+  }
+
+  73.33333% {
+    background-position: 0 72px;
+    padding-top: 360px;
+  }
+
+  76.66667% {
+    background-position: 0 96px;
+    padding-top: 384px;
+  }
+
+  80% {
+    background-position: 0 120px;
+    padding-top: 408px;
+  }
+
+  83.33333% {
+    background-position: 0 144px;
+    padding-top: 432px;
+  }
+
+  86.66667% {
+    background-position: 0 168px;
+    padding-top: 456px;
+  }
+
+  90% {
+    background-position: 0 192px;
+    padding-top: 480px;
+  }
+
+  93.33333% {
+    background-position: 0 216px;
+    padding-top: 504px;
+  }
+
+  96.66667% {
+    background-position: 0 240px;
+    padding-top: 528px;
+  }
+}
+
+.matrix li:nth-child(10) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(10):before {
+  display: block;
+  width: 1em;
+  content: "き ウ ょ ト シ う タ マ ば き と ド ソ ク ョ キ ド コ リ マ こ た リ ウ わ き タ バ コ バ";
+}
+.matrix li:nth-child(10):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 216px, #000000 216px, #000000 720px) 0 120px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ョ";
+  padding-top: 336px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-10 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-10 {
+  0% {
+    background-position: 0 120px;
+    padding-top: 336px;
+  }
+
+  3.33333% {
+    background-position: 0 144px;
+    padding-top: 360px;
+  }
+
+  6.66667% {
+    background-position: 0 168px;
+    padding-top: 384px;
+  }
+
+  10% {
+    background-position: 0 192px;
+    padding-top: 408px;
+  }
+
+  13.33333% {
+    background-position: 0 216px;
+    padding-top: 432px;
+  }
+
+  16.66667% {
+    background-position: 0 240px;
+    padding-top: 456px;
+  }
+
+  20% {
+    background-position: 0 264px;
+    padding-top: 480px;
+  }
+
+  23.33333% {
+    background-position: 0 288px;
+    padding-top: 504px;
+  }
+
+  26.66667% {
+    background-position: 0 312px;
+    padding-top: 528px;
+  }
+
+  30% {
+    background-position: 0 336px;
+    padding-top: 552px;
+  }
+
+  33.33333% {
+    background-position: 0 360px;
+    padding-top: 576px;
+  }
+
+  36.66667% {
+    background-position: 0 384px;
+    padding-top: 600px;
+  }
+
+  40% {
+    background-position: 0 408px;
+    padding-top: 624px;
+  }
+
+  43.33333% {
+    background-position: 0 432px;
+    padding-top: 648px;
+  }
+
+  46.66667% {
+    background-position: 0 456px;
+    padding-top: 672px;
+  }
+
+  50% {
+    background-position: 0 480px;
+    padding-top: 696px;
+  }
+
+  53.33333% {
+    background-position: 0 -216px;
+    padding-top: 0px;
+  }
+
+  56.66667% {
+    background-position: 0 -192px;
+    padding-top: 24px;
+  }
+
+  60% {
+    background-position: 0 -168px;
+    padding-top: 48px;
+  }
+
+  63.33333% {
+    background-position: 0 -144px;
+    padding-top: 72px;
+  }
+
+  66.66667% {
+    background-position: 0 -120px;
+    padding-top: 96px;
+  }
+
+  70% {
+    background-position: 0 -96px;
+    padding-top: 120px;
+  }
+
+  73.33333% {
+    background-position: 0 -72px;
+    padding-top: 144px;
+  }
+
+  76.66667% {
+    background-position: 0 -48px;
+    padding-top: 168px;
+  }
+
+  80% {
+    background-position: 0 -24px;
+    padding-top: 192px;
+  }
+
+  83.33333% {
+    background-position: 0 0px;
+    padding-top: 216px;
+  }
+
+  86.66667% {
+    background-position: 0 24px;
+    padding-top: 240px;
+  }
+
+  90% {
+    background-position: 0 48px;
+    padding-top: 264px;
+  }
+
+  93.33333% {
+    background-position: 0 72px;
+    padding-top: 288px;
+  }
+
+  96.66667% {
+    background-position: 0 96px;
+    padding-top: 312px;
+  }
+}
+
+.matrix li:nth-child(11) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(11):before {
+  display: block;
+  width: 1em;
+  content: "ウ ク タ コ ワ と マ ョ バ コ フ ょ ョ ョ ク ラ タ シ ラ こ マ ワ タ こ ょ ョ き ウ ウ タ";
+}
+.matrix li:nth-child(11):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 648px, #000000 648px, #000000 720px) 0 -384px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ょ";
+  padding-top: 264px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-11 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-11 {
+  0% {
+    background-position: 0 -384px;
+    padding-top: 264px;
+  }
+
+  3.33333% {
+    background-position: 0 -360px;
+    padding-top: 288px;
+  }
+
+  6.66667% {
+    background-position: 0 -336px;
+    padding-top: 312px;
+  }
+
+  10% {
+    background-position: 0 -312px;
+    padding-top: 336px;
+  }
+
+  13.33333% {
+    background-position: 0 -288px;
+    padding-top: 360px;
+  }
+
+  16.66667% {
+    background-position: 0 -264px;
+    padding-top: 384px;
+  }
+
+  20% {
+    background-position: 0 -240px;
+    padding-top: 408px;
+  }
+
+  23.33333% {
+    background-position: 0 -216px;
+    padding-top: 432px;
+  }
+
+  26.66667% {
+    background-position: 0 -192px;
+    padding-top: 456px;
+  }
+
+  30% {
+    background-position: 0 -168px;
+    padding-top: 480px;
+  }
+
+  33.33333% {
+    background-position: 0 -144px;
+    padding-top: 504px;
+  }
+
+  36.66667% {
+    background-position: 0 -120px;
+    padding-top: 528px;
+  }
+
+  40% {
+    background-position: 0 -96px;
+    padding-top: 552px;
+  }
+
+  43.33333% {
+    background-position: 0 -72px;
+    padding-top: 576px;
+  }
+
+  46.66667% {
+    background-position: 0 -48px;
+    padding-top: 600px;
+  }
+
+  50% {
+    background-position: 0 -24px;
+    padding-top: 624px;
+  }
+
+  53.33333% {
+    background-position: 0 0px;
+    padding-top: 648px;
+  }
+
+  56.66667% {
+    background-position: 0 24px;
+    padding-top: 672px;
+  }
+
+  60% {
+    background-position: 0 48px;
+    padding-top: 696px;
+  }
+
+  63.33333% {
+    background-position: 0 -648px;
+    padding-top: 0px;
+  }
+
+  66.66667% {
+    background-position: 0 -624px;
+    padding-top: 24px;
+  }
+
+  70% {
+    background-position: 0 -600px;
+    padding-top: 48px;
+  }
+
+  73.33333% {
+    background-position: 0 -576px;
+    padding-top: 72px;
+  }
+
+  76.66667% {
+    background-position: 0 -552px;
+    padding-top: 96px;
+  }
+
+  80% {
+    background-position: 0 -528px;
+    padding-top: 120px;
+  }
+
+  83.33333% {
+    background-position: 0 -504px;
+    padding-top: 144px;
+  }
+
+  86.66667% {
+    background-position: 0 -480px;
+    padding-top: 168px;
+  }
+
+  90% {
+    background-position: 0 -456px;
+    padding-top: 192px;
+  }
+
+  93.33333% {
+    background-position: 0 -432px;
+    padding-top: 216px;
+  }
+
+  96.66667% {
+    background-position: 0 -408px;
+    padding-top: 240px;
+  }
+}
+
+.matrix li:nth-child(12) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(12):before {
+  display: block;
+  width: 1em;
+  content: "ク と タ バ フ た タ キ ウ ラ リ た た ソ う う う ん フ こ シ た と ド ウ タ き ョ リ わ";
+}
+.matrix li:nth-child(12):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 648px, #000000 648px, #000000 720px) 0 -648px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ク";
+  padding-top: 0px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-12 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-12 {
+  0% {
+    background-position: 0 -648px;
+    padding-top: 0px;
+  }
+
+  3.33333% {
+    background-position: 0 -624px;
+    padding-top: 24px;
+  }
+
+  6.66667% {
+    background-position: 0 -600px;
+    padding-top: 48px;
+  }
+
+  10% {
+    background-position: 0 -576px;
+    padding-top: 72px;
+  }
+
+  13.33333% {
+    background-position: 0 -552px;
+    padding-top: 96px;
+  }
+
+  16.66667% {
+    background-position: 0 -528px;
+    padding-top: 120px;
+  }
+
+  20% {
+    background-position: 0 -504px;
+    padding-top: 144px;
+  }
+
+  23.33333% {
+    background-position: 0 -480px;
+    padding-top: 168px;
+  }
+
+  26.66667% {
+    background-position: 0 -456px;
+    padding-top: 192px;
+  }
+
+  30% {
+    background-position: 0 -432px;
+    padding-top: 216px;
+  }
+
+  33.33333% {
+    background-position: 0 -408px;
+    padding-top: 240px;
+  }
+
+  36.66667% {
+    background-position: 0 -384px;
+    padding-top: 264px;
+  }
+
+  40% {
+    background-position: 0 -360px;
+    padding-top: 288px;
+  }
+
+  43.33333% {
+    background-position: 0 -336px;
+    padding-top: 312px;
+  }
+
+  46.66667% {
+    background-position: 0 -312px;
+    padding-top: 336px;
+  }
+
+  50% {
+    background-position: 0 -288px;
+    padding-top: 360px;
+  }
+
+  53.33333% {
+    background-position: 0 -264px;
+    padding-top: 384px;
+  }
+
+  56.66667% {
+    background-position: 0 -240px;
+    padding-top: 408px;
+  }
+
+  60% {
+    background-position: 0 -216px;
+    padding-top: 432px;
+  }
+
+  63.33333% {
+    background-position: 0 -192px;
+    padding-top: 456px;
+  }
+
+  66.66667% {
+    background-position: 0 -168px;
+    padding-top: 480px;
+  }
+
+  70% {
+    background-position: 0 -144px;
+    padding-top: 504px;
+  }
+
+  73.33333% {
+    background-position: 0 -120px;
+    padding-top: 528px;
+  }
+
+  76.66667% {
+    background-position: 0 -96px;
+    padding-top: 552px;
+  }
+
+  80% {
+    background-position: 0 -72px;
+    padding-top: 576px;
+  }
+
+  83.33333% {
+    background-position: 0 -48px;
+    padding-top: 600px;
+  }
+
+  86.66667% {
+    background-position: 0 -24px;
+    padding-top: 624px;
+  }
+
+  90% {
+    background-position: 0 0px;
+    padding-top: 648px;
+  }
+
+  93.33333% {
+    background-position: 0 24px;
+    padding-top: 672px;
+  }
+
+  96.66667% {
+    background-position: 0 48px;
+    padding-top: 696px;
+  }
+}
+
+.matrix li:nth-child(13) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(13):before {
+  display: block;
+  width: 1em;
+  content: "コ ン ょ た コ ん ク と ン た た わ ン ソ ウ ょ ク ば う ょ ラ バ ワ と フ し し マ シ ョ";
+}
+.matrix li:nth-child(13):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 504px, #000000 504px, #000000 720px) 0 -432px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "た";
+  padding-top: 72px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-13 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-13 {
+  0% {
+    background-position: 0 -432px;
+    padding-top: 72px;
+  }
+
+  3.33333% {
+    background-position: 0 -408px;
+    padding-top: 96px;
+  }
+
+  6.66667% {
+    background-position: 0 -384px;
+    padding-top: 120px;
+  }
+
+  10% {
+    background-position: 0 -360px;
+    padding-top: 144px;
+  }
+
+  13.33333% {
+    background-position: 0 -336px;
+    padding-top: 168px;
+  }
+
+  16.66667% {
+    background-position: 0 -312px;
+    padding-top: 192px;
+  }
+
+  20% {
+    background-position: 0 -288px;
+    padding-top: 216px;
+  }
+
+  23.33333% {
+    background-position: 0 -264px;
+    padding-top: 240px;
+  }
+
+  26.66667% {
+    background-position: 0 -240px;
+    padding-top: 264px;
+  }
+
+  30% {
+    background-position: 0 -216px;
+    padding-top: 288px;
+  }
+
+  33.33333% {
+    background-position: 0 -192px;
+    padding-top: 312px;
+  }
+
+  36.66667% {
+    background-position: 0 -168px;
+    padding-top: 336px;
+  }
+
+  40% {
+    background-position: 0 -144px;
+    padding-top: 360px;
+  }
+
+  43.33333% {
+    background-position: 0 -120px;
+    padding-top: 384px;
+  }
+
+  46.66667% {
+    background-position: 0 -96px;
+    padding-top: 408px;
+  }
+
+  50% {
+    background-position: 0 -72px;
+    padding-top: 432px;
+  }
+
+  53.33333% {
+    background-position: 0 -48px;
+    padding-top: 456px;
+  }
+
+  56.66667% {
+    background-position: 0 -24px;
+    padding-top: 480px;
+  }
+
+  60% {
+    background-position: 0 0px;
+    padding-top: 504px;
+  }
+
+  63.33333% {
+    background-position: 0 24px;
+    padding-top: 528px;
+  }
+
+  66.66667% {
+    background-position: 0 48px;
+    padding-top: 552px;
+  }
+
+  70% {
+    background-position: 0 72px;
+    padding-top: 576px;
+  }
+
+  73.33333% {
+    background-position: 0 96px;
+    padding-top: 600px;
+  }
+
+  76.66667% {
+    background-position: 0 120px;
+    padding-top: 624px;
+  }
+
+  80% {
+    background-position: 0 144px;
+    padding-top: 648px;
+  }
+
+  83.33333% {
+    background-position: 0 168px;
+    padding-top: 672px;
+  }
+
+  86.66667% {
+    background-position: 0 192px;
+    padding-top: 696px;
+  }
+
+  90% {
+    background-position: 0 -504px;
+    padding-top: 0px;
+  }
+
+  93.33333% {
+    background-position: 0 -480px;
+    padding-top: 24px;
+  }
+
+  96.66667% {
+    background-position: 0 -456px;
+    padding-top: 48px;
+  }
+}
+
+.matrix li:nth-child(14) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(14):before {
+  display: block;
+  width: 1em;
+  content: "と こ ン ト わ ウ ン ョ シ と ラ ン ょ ば ラ ン ョ た ョ フ ク キ ワ バ ソ シ ウ ラ こ こ";
+}
+.matrix li:nth-child(14):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 360px, #000000 360px, #000000 720px) 0 -144px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "と";
+  padding-top: 216px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-14 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-14 {
+  0% {
+    background-position: 0 -144px;
+    padding-top: 216px;
+  }
+
+  3.33333% {
+    background-position: 0 -120px;
+    padding-top: 240px;
+  }
+
+  6.66667% {
+    background-position: 0 -96px;
+    padding-top: 264px;
+  }
+
+  10% {
+    background-position: 0 -72px;
+    padding-top: 288px;
+  }
+
+  13.33333% {
+    background-position: 0 -48px;
+    padding-top: 312px;
+  }
+
+  16.66667% {
+    background-position: 0 -24px;
+    padding-top: 336px;
+  }
+
+  20% {
+    background-position: 0 0px;
+    padding-top: 360px;
+  }
+
+  23.33333% {
+    background-position: 0 24px;
+    padding-top: 384px;
+  }
+
+  26.66667% {
+    background-position: 0 48px;
+    padding-top: 408px;
+  }
+
+  30% {
+    background-position: 0 72px;
+    padding-top: 432px;
+  }
+
+  33.33333% {
+    background-position: 0 96px;
+    padding-top: 456px;
+  }
+
+  36.66667% {
+    background-position: 0 120px;
+    padding-top: 480px;
+  }
+
+  40% {
+    background-position: 0 144px;
+    padding-top: 504px;
+  }
+
+  43.33333% {
+    background-position: 0 168px;
+    padding-top: 528px;
+  }
+
+  46.66667% {
+    background-position: 0 192px;
+    padding-top: 552px;
+  }
+
+  50% {
+    background-position: 0 216px;
+    padding-top: 576px;
+  }
+
+  53.33333% {
+    background-position: 0 240px;
+    padding-top: 600px;
+  }
+
+  56.66667% {
+    background-position: 0 264px;
+    padding-top: 624px;
+  }
+
+  60% {
+    background-position: 0 288px;
+    padding-top: 648px;
+  }
+
+  63.33333% {
+    background-position: 0 312px;
+    padding-top: 672px;
+  }
+
+  66.66667% {
+    background-position: 0 336px;
+    padding-top: 696px;
+  }
+
+  70% {
+    background-position: 0 -360px;
+    padding-top: 0px;
+  }
+
+  73.33333% {
+    background-position: 0 -336px;
+    padding-top: 24px;
+  }
+
+  76.66667% {
+    background-position: 0 -312px;
+    padding-top: 48px;
+  }
+
+  80% {
+    background-position: 0 -288px;
+    padding-top: 72px;
+  }
+
+  83.33333% {
+    background-position: 0 -264px;
+    padding-top: 96px;
+  }
+
+  86.66667% {
+    background-position: 0 -240px;
+    padding-top: 120px;
+  }
+
+  90% {
+    background-position: 0 -216px;
+    padding-top: 144px;
+  }
+
+  93.33333% {
+    background-position: 0 -192px;
+    padding-top: 168px;
+  }
+
+  96.66667% {
+    background-position: 0 -168px;
+    padding-top: 192px;
+  }
+}
+
+.matrix li:nth-child(15) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(15):before {
+  display: block;
+  width: 1em;
+  content: "タ ラ コ ョ リ タ バ ョ う フ と ウ ト バ リ ょ う ワ た と コ わ マ マ タ フ マ う う う";
+}
+.matrix li:nth-child(15):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 360px, #000000 360px, #000000 720px) 0 192px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "マ";
+  padding-top: 552px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-15 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-15 {
+  0% {
+    background-position: 0 192px;
+    padding-top: 552px;
+  }
+
+  3.33333% {
+    background-position: 0 216px;
+    padding-top: 576px;
+  }
+
+  6.66667% {
+    background-position: 0 240px;
+    padding-top: 600px;
+  }
+
+  10% {
+    background-position: 0 264px;
+    padding-top: 624px;
+  }
+
+  13.33333% {
+    background-position: 0 288px;
+    padding-top: 648px;
+  }
+
+  16.66667% {
+    background-position: 0 312px;
+    padding-top: 672px;
+  }
+
+  20% {
+    background-position: 0 336px;
+    padding-top: 696px;
+  }
+
+  23.33333% {
+    background-position: 0 -360px;
+    padding-top: 0px;
+  }
+
+  26.66667% {
+    background-position: 0 -336px;
+    padding-top: 24px;
+  }
+
+  30% {
+    background-position: 0 -312px;
+    padding-top: 48px;
+  }
+
+  33.33333% {
+    background-position: 0 -288px;
+    padding-top: 72px;
+  }
+
+  36.66667% {
+    background-position: 0 -264px;
+    padding-top: 96px;
+  }
+
+  40% {
+    background-position: 0 -240px;
+    padding-top: 120px;
+  }
+
+  43.33333% {
+    background-position: 0 -216px;
+    padding-top: 144px;
+  }
+
+  46.66667% {
+    background-position: 0 -192px;
+    padding-top: 168px;
+  }
+
+  50% {
+    background-position: 0 -168px;
+    padding-top: 192px;
+  }
+
+  53.33333% {
+    background-position: 0 -144px;
+    padding-top: 216px;
+  }
+
+  56.66667% {
+    background-position: 0 -120px;
+    padding-top: 240px;
+  }
+
+  60% {
+    background-position: 0 -96px;
+    padding-top: 264px;
+  }
+
+  63.33333% {
+    background-position: 0 -72px;
+    padding-top: 288px;
+  }
+
+  66.66667% {
+    background-position: 0 -48px;
+    padding-top: 312px;
+  }
+
+  70% {
+    background-position: 0 -24px;
+    padding-top: 336px;
+  }
+
+  73.33333% {
+    background-position: 0 0px;
+    padding-top: 360px;
+  }
+
+  76.66667% {
+    background-position: 0 24px;
+    padding-top: 384px;
+  }
+
+  80% {
+    background-position: 0 48px;
+    padding-top: 408px;
+  }
+
+  83.33333% {
+    background-position: 0 72px;
+    padding-top: 432px;
+  }
+
+  86.66667% {
+    background-position: 0 96px;
+    padding-top: 456px;
+  }
+
+  90% {
+    background-position: 0 120px;
+    padding-top: 480px;
+  }
+
+  93.33333% {
+    background-position: 0 144px;
+    padding-top: 504px;
+  }
+
+  96.66667% {
+    background-position: 0 168px;
+    padding-top: 528px;
+  }
+}
+
+.matrix li:nth-child(16) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(16):before {
+  display: block;
+  width: 1em;
+  content: "ョ ョ タ ウ ク た ん ン ト タ と き ょ タ リ ウ ラ ン バ わ こ わ ン し ト バ ク わ キ タ";
+}
+.matrix li:nth-child(16):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 312px, #000000 312px, #000000 720px) 0 144px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "わ";
+  padding-top: 456px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-16 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-16 {
+  0% {
+    background-position: 0 144px;
+    padding-top: 456px;
+  }
+
+  3.33333% {
+    background-position: 0 168px;
+    padding-top: 480px;
+  }
+
+  6.66667% {
+    background-position: 0 192px;
+    padding-top: 504px;
+  }
+
+  10% {
+    background-position: 0 216px;
+    padding-top: 528px;
+  }
+
+  13.33333% {
+    background-position: 0 240px;
+    padding-top: 552px;
+  }
+
+  16.66667% {
+    background-position: 0 264px;
+    padding-top: 576px;
+  }
+
+  20% {
+    background-position: 0 288px;
+    padding-top: 600px;
+  }
+
+  23.33333% {
+    background-position: 0 312px;
+    padding-top: 624px;
+  }
+
+  26.66667% {
+    background-position: 0 336px;
+    padding-top: 648px;
+  }
+
+  30% {
+    background-position: 0 360px;
+    padding-top: 672px;
+  }
+
+  33.33333% {
+    background-position: 0 384px;
+    padding-top: 696px;
+  }
+
+  36.66667% {
+    background-position: 0 -312px;
+    padding-top: 0px;
+  }
+
+  40% {
+    background-position: 0 -288px;
+    padding-top: 24px;
+  }
+
+  43.33333% {
+    background-position: 0 -264px;
+    padding-top: 48px;
+  }
+
+  46.66667% {
+    background-position: 0 -240px;
+    padding-top: 72px;
+  }
+
+  50% {
+    background-position: 0 -216px;
+    padding-top: 96px;
+  }
+
+  53.33333% {
+    background-position: 0 -192px;
+    padding-top: 120px;
+  }
+
+  56.66667% {
+    background-position: 0 -168px;
+    padding-top: 144px;
+  }
+
+  60% {
+    background-position: 0 -144px;
+    padding-top: 168px;
+  }
+
+  63.33333% {
+    background-position: 0 -120px;
+    padding-top: 192px;
+  }
+
+  66.66667% {
+    background-position: 0 -96px;
+    padding-top: 216px;
+  }
+
+  70% {
+    background-position: 0 -72px;
+    padding-top: 240px;
+  }
+
+  73.33333% {
+    background-position: 0 -48px;
+    padding-top: 264px;
+  }
+
+  76.66667% {
+    background-position: 0 -24px;
+    padding-top: 288px;
+  }
+
+  80% {
+    background-position: 0 0px;
+    padding-top: 312px;
+  }
+
+  83.33333% {
+    background-position: 0 24px;
+    padding-top: 336px;
+  }
+
+  86.66667% {
+    background-position: 0 48px;
+    padding-top: 360px;
+  }
+
+  90% {
+    background-position: 0 72px;
+    padding-top: 384px;
+  }
+
+  93.33333% {
+    background-position: 0 96px;
+    padding-top: 408px;
+  }
+
+  96.66667% {
+    background-position: 0 120px;
+    padding-top: 432px;
+  }
+}
+
+.matrix li:nth-child(17) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(17):before {
+  display: block;
+  width: 1em;
+  content: "と き う き ウ ト バ リ ク タ わ キ マ マ こ ソ バ ワ た こ ょ ラ コ キ フ タ ワ タ わ フ";
+}
+.matrix li:nth-child(17):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 576px, #000000 576px, #000000 720px) 0 -528px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "う";
+  padding-top: 48px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-17 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-17 {
+  0% {
+    background-position: 0 -528px;
+    padding-top: 48px;
+  }
+
+  3.33333% {
+    background-position: 0 -504px;
+    padding-top: 72px;
+  }
+
+  6.66667% {
+    background-position: 0 -480px;
+    padding-top: 96px;
+  }
+
+  10% {
+    background-position: 0 -456px;
+    padding-top: 120px;
+  }
+
+  13.33333% {
+    background-position: 0 -432px;
+    padding-top: 144px;
+  }
+
+  16.66667% {
+    background-position: 0 -408px;
+    padding-top: 168px;
+  }
+
+  20% {
+    background-position: 0 -384px;
+    padding-top: 192px;
+  }
+
+  23.33333% {
+    background-position: 0 -360px;
+    padding-top: 216px;
+  }
+
+  26.66667% {
+    background-position: 0 -336px;
+    padding-top: 240px;
+  }
+
+  30% {
+    background-position: 0 -312px;
+    padding-top: 264px;
+  }
+
+  33.33333% {
+    background-position: 0 -288px;
+    padding-top: 288px;
+  }
+
+  36.66667% {
+    background-position: 0 -264px;
+    padding-top: 312px;
+  }
+
+  40% {
+    background-position: 0 -240px;
+    padding-top: 336px;
+  }
+
+  43.33333% {
+    background-position: 0 -216px;
+    padding-top: 360px;
+  }
+
+  46.66667% {
+    background-position: 0 -192px;
+    padding-top: 384px;
+  }
+
+  50% {
+    background-position: 0 -168px;
+    padding-top: 408px;
+  }
+
+  53.33333% {
+    background-position: 0 -144px;
+    padding-top: 432px;
+  }
+
+  56.66667% {
+    background-position: 0 -120px;
+    padding-top: 456px;
+  }
+
+  60% {
+    background-position: 0 -96px;
+    padding-top: 480px;
+  }
+
+  63.33333% {
+    background-position: 0 -72px;
+    padding-top: 504px;
+  }
+
+  66.66667% {
+    background-position: 0 -48px;
+    padding-top: 528px;
+  }
+
+  70% {
+    background-position: 0 -24px;
+    padding-top: 552px;
+  }
+
+  73.33333% {
+    background-position: 0 0px;
+    padding-top: 576px;
+  }
+
+  76.66667% {
+    background-position: 0 24px;
+    padding-top: 600px;
+  }
+
+  80% {
+    background-position: 0 48px;
+    padding-top: 624px;
+  }
+
+  83.33333% {
+    background-position: 0 72px;
+    padding-top: 648px;
+  }
+
+  86.66667% {
+    background-position: 0 96px;
+    padding-top: 672px;
+  }
+
+  90% {
+    background-position: 0 120px;
+    padding-top: 696px;
+  }
+
+  93.33333% {
+    background-position: 0 -576px;
+    padding-top: 0px;
+  }
+
+  96.66667% {
+    background-position: 0 -552px;
+    padding-top: 24px;
+  }
+}
+
+.matrix li:nth-child(18) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(18):before {
+  display: block;
+  width: 1em;
+  content: "タ ラ ラ ン ラ し と ラ と ン タ ン フ ょ と ン た ョ ラ ラ ト ん た ラ ば タ ド ン ワ た";
+}
+.matrix li:nth-child(18):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 504px, #000000 504px, #000000 720px) 0 24px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "た";
+  padding-top: 528px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-18 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-18 {
+  0% {
+    background-position: 0 24px;
+    padding-top: 528px;
+  }
+
+  3.33333% {
+    background-position: 0 48px;
+    padding-top: 552px;
+  }
+
+  6.66667% {
+    background-position: 0 72px;
+    padding-top: 576px;
+  }
+
+  10% {
+    background-position: 0 96px;
+    padding-top: 600px;
+  }
+
+  13.33333% {
+    background-position: 0 120px;
+    padding-top: 624px;
+  }
+
+  16.66667% {
+    background-position: 0 144px;
+    padding-top: 648px;
+  }
+
+  20% {
+    background-position: 0 168px;
+    padding-top: 672px;
+  }
+
+  23.33333% {
+    background-position: 0 192px;
+    padding-top: 696px;
+  }
+
+  26.66667% {
+    background-position: 0 -504px;
+    padding-top: 0px;
+  }
+
+  30% {
+    background-position: 0 -480px;
+    padding-top: 24px;
+  }
+
+  33.33333% {
+    background-position: 0 -456px;
+    padding-top: 48px;
+  }
+
+  36.66667% {
+    background-position: 0 -432px;
+    padding-top: 72px;
+  }
+
+  40% {
+    background-position: 0 -408px;
+    padding-top: 96px;
+  }
+
+  43.33333% {
+    background-position: 0 -384px;
+    padding-top: 120px;
+  }
+
+  46.66667% {
+    background-position: 0 -360px;
+    padding-top: 144px;
+  }
+
+  50% {
+    background-position: 0 -336px;
+    padding-top: 168px;
+  }
+
+  53.33333% {
+    background-position: 0 -312px;
+    padding-top: 192px;
+  }
+
+  56.66667% {
+    background-position: 0 -288px;
+    padding-top: 216px;
+  }
+
+  60% {
+    background-position: 0 -264px;
+    padding-top: 240px;
+  }
+
+  63.33333% {
+    background-position: 0 -240px;
+    padding-top: 264px;
+  }
+
+  66.66667% {
+    background-position: 0 -216px;
+    padding-top: 288px;
+  }
+
+  70% {
+    background-position: 0 -192px;
+    padding-top: 312px;
+  }
+
+  73.33333% {
+    background-position: 0 -168px;
+    padding-top: 336px;
+  }
+
+  76.66667% {
+    background-position: 0 -144px;
+    padding-top: 360px;
+  }
+
+  80% {
+    background-position: 0 -120px;
+    padding-top: 384px;
+  }
+
+  83.33333% {
+    background-position: 0 -96px;
+    padding-top: 408px;
+  }
+
+  86.66667% {
+    background-position: 0 -72px;
+    padding-top: 432px;
+  }
+
+  90% {
+    background-position: 0 -48px;
+    padding-top: 456px;
+  }
+
+  93.33333% {
+    background-position: 0 -24px;
+    padding-top: 480px;
+  }
+
+  96.66667% {
+    background-position: 0 0px;
+    padding-top: 504px;
+  }
+}
+
+.matrix li:nth-child(19) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(19):before {
+  display: block;
+  width: 1em;
+  content: "バ ド た わ ト キ フ ょ こ ば し バ ン シ ョ う ト ン ョ ョ と タ マ ラ ラ こ う タ た バ";
+}
+.matrix li:nth-child(19):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 144px, #000000 144px, #000000 720px) 0 480px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "う";
+  padding-top: 624px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-19 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-19 {
+  0% {
+    background-position: 0 480px;
+    padding-top: 624px;
+  }
+
+  3.33333% {
+    background-position: 0 504px;
+    padding-top: 648px;
+  }
+
+  6.66667% {
+    background-position: 0 528px;
+    padding-top: 672px;
+  }
+
+  10% {
+    background-position: 0 552px;
+    padding-top: 696px;
+  }
+
+  13.33333% {
+    background-position: 0 -144px;
+    padding-top: 0px;
+  }
+
+  16.66667% {
+    background-position: 0 -120px;
+    padding-top: 24px;
+  }
+
+  20% {
+    background-position: 0 -96px;
+    padding-top: 48px;
+  }
+
+  23.33333% {
+    background-position: 0 -72px;
+    padding-top: 72px;
+  }
+
+  26.66667% {
+    background-position: 0 -48px;
+    padding-top: 96px;
+  }
+
+  30% {
+    background-position: 0 -24px;
+    padding-top: 120px;
+  }
+
+  33.33333% {
+    background-position: 0 0px;
+    padding-top: 144px;
+  }
+
+  36.66667% {
+    background-position: 0 24px;
+    padding-top: 168px;
+  }
+
+  40% {
+    background-position: 0 48px;
+    padding-top: 192px;
+  }
+
+  43.33333% {
+    background-position: 0 72px;
+    padding-top: 216px;
+  }
+
+  46.66667% {
+    background-position: 0 96px;
+    padding-top: 240px;
+  }
+
+  50% {
+    background-position: 0 120px;
+    padding-top: 264px;
+  }
+
+  53.33333% {
+    background-position: 0 144px;
+    padding-top: 288px;
+  }
+
+  56.66667% {
+    background-position: 0 168px;
+    padding-top: 312px;
+  }
+
+  60% {
+    background-position: 0 192px;
+    padding-top: 336px;
+  }
+
+  63.33333% {
+    background-position: 0 216px;
+    padding-top: 360px;
+  }
+
+  66.66667% {
+    background-position: 0 240px;
+    padding-top: 384px;
+  }
+
+  70% {
+    background-position: 0 264px;
+    padding-top: 408px;
+  }
+
+  73.33333% {
+    background-position: 0 288px;
+    padding-top: 432px;
+  }
+
+  76.66667% {
+    background-position: 0 312px;
+    padding-top: 456px;
+  }
+
+  80% {
+    background-position: 0 336px;
+    padding-top: 480px;
+  }
+
+  83.33333% {
+    background-position: 0 360px;
+    padding-top: 504px;
+  }
+
+  86.66667% {
+    background-position: 0 384px;
+    padding-top: 528px;
+  }
+
+  90% {
+    background-position: 0 408px;
+    padding-top: 552px;
+  }
+
+  93.33333% {
+    background-position: 0 432px;
+    padding-top: 576px;
+  }
+
+  96.66667% {
+    background-position: 0 456px;
+    padding-top: 600px;
+  }
+}
+
+.matrix li:nth-child(20) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(20):before {
+  display: block;
+  width: 1em;
+  content: "バ わ わ ょ ラ ソ ョ リ こ ラ き こ ト き わ ウ ン ョ ょ ば た コ ラ ば た こ ン ン と ン";
+}
+.matrix li:nth-child(20):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 120px, #000000 120px, #000000 720px) 0 264px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ン";
+  padding-top: 384px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-20 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-20 {
+  0% {
+    background-position: 0 264px;
+    padding-top: 384px;
+  }
+
+  3.33333% {
+    background-position: 0 288px;
+    padding-top: 408px;
+  }
+
+  6.66667% {
+    background-position: 0 312px;
+    padding-top: 432px;
+  }
+
+  10% {
+    background-position: 0 336px;
+    padding-top: 456px;
+  }
+
+  13.33333% {
+    background-position: 0 360px;
+    padding-top: 480px;
+  }
+
+  16.66667% {
+    background-position: 0 384px;
+    padding-top: 504px;
+  }
+
+  20% {
+    background-position: 0 408px;
+    padding-top: 528px;
+  }
+
+  23.33333% {
+    background-position: 0 432px;
+    padding-top: 552px;
+  }
+
+  26.66667% {
+    background-position: 0 456px;
+    padding-top: 576px;
+  }
+
+  30% {
+    background-position: 0 480px;
+    padding-top: 600px;
+  }
+
+  33.33333% {
+    background-position: 0 504px;
+    padding-top: 624px;
+  }
+
+  36.66667% {
+    background-position: 0 528px;
+    padding-top: 648px;
+  }
+
+  40% {
+    background-position: 0 552px;
+    padding-top: 672px;
+  }
+
+  43.33333% {
+    background-position: 0 576px;
+    padding-top: 696px;
+  }
+
+  46.66667% {
+    background-position: 0 -120px;
+    padding-top: 0px;
+  }
+
+  50% {
+    background-position: 0 -96px;
+    padding-top: 24px;
+  }
+
+  53.33333% {
+    background-position: 0 -72px;
+    padding-top: 48px;
+  }
+
+  56.66667% {
+    background-position: 0 -48px;
+    padding-top: 72px;
+  }
+
+  60% {
+    background-position: 0 -24px;
+    padding-top: 96px;
+  }
+
+  63.33333% {
+    background-position: 0 0px;
+    padding-top: 120px;
+  }
+
+  66.66667% {
+    background-position: 0 24px;
+    padding-top: 144px;
+  }
+
+  70% {
+    background-position: 0 48px;
+    padding-top: 168px;
+  }
+
+  73.33333% {
+    background-position: 0 72px;
+    padding-top: 192px;
+  }
+
+  76.66667% {
+    background-position: 0 96px;
+    padding-top: 216px;
+  }
+
+  80% {
+    background-position: 0 120px;
+    padding-top: 240px;
+  }
+
+  83.33333% {
+    background-position: 0 144px;
+    padding-top: 264px;
+  }
+
+  86.66667% {
+    background-position: 0 168px;
+    padding-top: 288px;
+  }
+
+  90% {
+    background-position: 0 192px;
+    padding-top: 312px;
+  }
+
+  93.33333% {
+    background-position: 0 216px;
+    padding-top: 336px;
+  }
+
+  96.66667% {
+    background-position: 0 240px;
+    padding-top: 360px;
+  }
+}
+
+.matrix li:nth-child(21) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(21):before {
+  display: block;
+  width: 1em;
+  content: "コ と バ キ ラ ラ ク ド フ リ タ ウ シ う バ ょ マ ラ キ と た ワ フ こ タ わ こ ウ ト た";
+}
+.matrix li:nth-child(21):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 432px, #000000 432px, #000000 720px) 0 -312px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ラ";
+  padding-top: 120px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-21 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-21 {
+  0% {
+    background-position: 0 -312px;
+    padding-top: 120px;
+  }
+
+  3.33333% {
+    background-position: 0 -288px;
+    padding-top: 144px;
+  }
+
+  6.66667% {
+    background-position: 0 -264px;
+    padding-top: 168px;
+  }
+
+  10% {
+    background-position: 0 -240px;
+    padding-top: 192px;
+  }
+
+  13.33333% {
+    background-position: 0 -216px;
+    padding-top: 216px;
+  }
+
+  16.66667% {
+    background-position: 0 -192px;
+    padding-top: 240px;
+  }
+
+  20% {
+    background-position: 0 -168px;
+    padding-top: 264px;
+  }
+
+  23.33333% {
+    background-position: 0 -144px;
+    padding-top: 288px;
+  }
+
+  26.66667% {
+    background-position: 0 -120px;
+    padding-top: 312px;
+  }
+
+  30% {
+    background-position: 0 -96px;
+    padding-top: 336px;
+  }
+
+  33.33333% {
+    background-position: 0 -72px;
+    padding-top: 360px;
+  }
+
+  36.66667% {
+    background-position: 0 -48px;
+    padding-top: 384px;
+  }
+
+  40% {
+    background-position: 0 -24px;
+    padding-top: 408px;
+  }
+
+  43.33333% {
+    background-position: 0 0px;
+    padding-top: 432px;
+  }
+
+  46.66667% {
+    background-position: 0 24px;
+    padding-top: 456px;
+  }
+
+  50% {
+    background-position: 0 48px;
+    padding-top: 480px;
+  }
+
+  53.33333% {
+    background-position: 0 72px;
+    padding-top: 504px;
+  }
+
+  56.66667% {
+    background-position: 0 96px;
+    padding-top: 528px;
+  }
+
+  60% {
+    background-position: 0 120px;
+    padding-top: 552px;
+  }
+
+  63.33333% {
+    background-position: 0 144px;
+    padding-top: 576px;
+  }
+
+  66.66667% {
+    background-position: 0 168px;
+    padding-top: 600px;
+  }
+
+  70% {
+    background-position: 0 192px;
+    padding-top: 624px;
+  }
+
+  73.33333% {
+    background-position: 0 216px;
+    padding-top: 648px;
+  }
+
+  76.66667% {
+    background-position: 0 240px;
+    padding-top: 672px;
+  }
+
+  80% {
+    background-position: 0 264px;
+    padding-top: 696px;
+  }
+
+  83.33333% {
+    background-position: 0 -432px;
+    padding-top: 0px;
+  }
+
+  86.66667% {
+    background-position: 0 -408px;
+    padding-top: 24px;
+  }
+
+  90% {
+    background-position: 0 -384px;
+    padding-top: 48px;
+  }
+
+  93.33333% {
+    background-position: 0 -360px;
+    padding-top: 72px;
+  }
+
+  96.66667% {
+    background-position: 0 -336px;
+    padding-top: 96px;
+  }
+}
+
+.matrix li:nth-child(22) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(22):before {
+  display: block;
+  width: 1em;
+  content: "ょ ド コ ウ ソ フ コ き ウ ク こ し ょ と ウ ョ ラ と ラ マ ソ ウ ょ リ フ ド バ わ シ ョ";
+}
+.matrix li:nth-child(22):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 216px, #000000 216px, #000000 720px) 0 216px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ラ";
+  padding-top: 432px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-22 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-22 {
+  0% {
+    background-position: 0 216px;
+    padding-top: 432px;
+  }
+
+  3.33333% {
+    background-position: 0 240px;
+    padding-top: 456px;
+  }
+
+  6.66667% {
+    background-position: 0 264px;
+    padding-top: 480px;
+  }
+
+  10% {
+    background-position: 0 288px;
+    padding-top: 504px;
+  }
+
+  13.33333% {
+    background-position: 0 312px;
+    padding-top: 528px;
+  }
+
+  16.66667% {
+    background-position: 0 336px;
+    padding-top: 552px;
+  }
+
+  20% {
+    background-position: 0 360px;
+    padding-top: 576px;
+  }
+
+  23.33333% {
+    background-position: 0 384px;
+    padding-top: 600px;
+  }
+
+  26.66667% {
+    background-position: 0 408px;
+    padding-top: 624px;
+  }
+
+  30% {
+    background-position: 0 432px;
+    padding-top: 648px;
+  }
+
+  33.33333% {
+    background-position: 0 456px;
+    padding-top: 672px;
+  }
+
+  36.66667% {
+    background-position: 0 480px;
+    padding-top: 696px;
+  }
+
+  40% {
+    background-position: 0 -216px;
+    padding-top: 0px;
+  }
+
+  43.33333% {
+    background-position: 0 -192px;
+    padding-top: 24px;
+  }
+
+  46.66667% {
+    background-position: 0 -168px;
+    padding-top: 48px;
+  }
+
+  50% {
+    background-position: 0 -144px;
+    padding-top: 72px;
+  }
+
+  53.33333% {
+    background-position: 0 -120px;
+    padding-top: 96px;
+  }
+
+  56.66667% {
+    background-position: 0 -96px;
+    padding-top: 120px;
+  }
+
+  60% {
+    background-position: 0 -72px;
+    padding-top: 144px;
+  }
+
+  63.33333% {
+    background-position: 0 -48px;
+    padding-top: 168px;
+  }
+
+  66.66667% {
+    background-position: 0 -24px;
+    padding-top: 192px;
+  }
+
+  70% {
+    background-position: 0 0px;
+    padding-top: 216px;
+  }
+
+  73.33333% {
+    background-position: 0 24px;
+    padding-top: 240px;
+  }
+
+  76.66667% {
+    background-position: 0 48px;
+    padding-top: 264px;
+  }
+
+  80% {
+    background-position: 0 72px;
+    padding-top: 288px;
+  }
+
+  83.33333% {
+    background-position: 0 96px;
+    padding-top: 312px;
+  }
+
+  86.66667% {
+    background-position: 0 120px;
+    padding-top: 336px;
+  }
+
+  90% {
+    background-position: 0 144px;
+    padding-top: 360px;
+  }
+
+  93.33333% {
+    background-position: 0 168px;
+    padding-top: 384px;
+  }
+
+  96.66667% {
+    background-position: 0 192px;
+    padding-top: 408px;
+  }
+}
+
+.matrix li:nth-child(23) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(23):before {
+  display: block;
+  width: 1em;
+  content: "マ と と ワ ん バ ョ と わ ょ た う ば ウ ん リ シ バ コ リ コ ウ リ き ょ た た ク た タ";
+}
+.matrix li:nth-child(23):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 288px, #000000 288px, #000000 720px) 0 216px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ウ";
+  padding-top: 504px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-23 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-23 {
+  0% {
+    background-position: 0 216px;
+    padding-top: 504px;
+  }
+
+  3.33333% {
+    background-position: 0 240px;
+    padding-top: 528px;
+  }
+
+  6.66667% {
+    background-position: 0 264px;
+    padding-top: 552px;
+  }
+
+  10% {
+    background-position: 0 288px;
+    padding-top: 576px;
+  }
+
+  13.33333% {
+    background-position: 0 312px;
+    padding-top: 600px;
+  }
+
+  16.66667% {
+    background-position: 0 336px;
+    padding-top: 624px;
+  }
+
+  20% {
+    background-position: 0 360px;
+    padding-top: 648px;
+  }
+
+  23.33333% {
+    background-position: 0 384px;
+    padding-top: 672px;
+  }
+
+  26.66667% {
+    background-position: 0 408px;
+    padding-top: 696px;
+  }
+
+  30% {
+    background-position: 0 -288px;
+    padding-top: 0px;
+  }
+
+  33.33333% {
+    background-position: 0 -264px;
+    padding-top: 24px;
+  }
+
+  36.66667% {
+    background-position: 0 -240px;
+    padding-top: 48px;
+  }
+
+  40% {
+    background-position: 0 -216px;
+    padding-top: 72px;
+  }
+
+  43.33333% {
+    background-position: 0 -192px;
+    padding-top: 96px;
+  }
+
+  46.66667% {
+    background-position: 0 -168px;
+    padding-top: 120px;
+  }
+
+  50% {
+    background-position: 0 -144px;
+    padding-top: 144px;
+  }
+
+  53.33333% {
+    background-position: 0 -120px;
+    padding-top: 168px;
+  }
+
+  56.66667% {
+    background-position: 0 -96px;
+    padding-top: 192px;
+  }
+
+  60% {
+    background-position: 0 -72px;
+    padding-top: 216px;
+  }
+
+  63.33333% {
+    background-position: 0 -48px;
+    padding-top: 240px;
+  }
+
+  66.66667% {
+    background-position: 0 -24px;
+    padding-top: 264px;
+  }
+
+  70% {
+    background-position: 0 0px;
+    padding-top: 288px;
+  }
+
+  73.33333% {
+    background-position: 0 24px;
+    padding-top: 312px;
+  }
+
+  76.66667% {
+    background-position: 0 48px;
+    padding-top: 336px;
+  }
+
+  80% {
+    background-position: 0 72px;
+    padding-top: 360px;
+  }
+
+  83.33333% {
+    background-position: 0 96px;
+    padding-top: 384px;
+  }
+
+  86.66667% {
+    background-position: 0 120px;
+    padding-top: 408px;
+  }
+
+  90% {
+    background-position: 0 144px;
+    padding-top: 432px;
+  }
+
+  93.33333% {
+    background-position: 0 168px;
+    padding-top: 456px;
+  }
+
+  96.66667% {
+    background-position: 0 192px;
+    padding-top: 480px;
+  }
+}
+
+.matrix li:nth-child(24) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(24):before {
+  display: block;
+  width: 1em;
+  content: "ョ シ ワ こ コ リ タ タ ば ン こ マ た ウ キ キ ワ キ バ う ょ と た リ ワ ン リ た ト ン";
+}
+.matrix li:nth-child(24):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 408px, #000000 408px, #000000 720px) 0 144px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "リ";
+  padding-top: 552px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-24 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-24 {
+  0% {
+    background-position: 0 144px;
+    padding-top: 552px;
+  }
+
+  3.33333% {
+    background-position: 0 168px;
+    padding-top: 576px;
+  }
+
+  6.66667% {
+    background-position: 0 192px;
+    padding-top: 600px;
+  }
+
+  10% {
+    background-position: 0 216px;
+    padding-top: 624px;
+  }
+
+  13.33333% {
+    background-position: 0 240px;
+    padding-top: 648px;
+  }
+
+  16.66667% {
+    background-position: 0 264px;
+    padding-top: 672px;
+  }
+
+  20% {
+    background-position: 0 288px;
+    padding-top: 696px;
+  }
+
+  23.33333% {
+    background-position: 0 -408px;
+    padding-top: 0px;
+  }
+
+  26.66667% {
+    background-position: 0 -384px;
+    padding-top: 24px;
+  }
+
+  30% {
+    background-position: 0 -360px;
+    padding-top: 48px;
+  }
+
+  33.33333% {
+    background-position: 0 -336px;
+    padding-top: 72px;
+  }
+
+  36.66667% {
+    background-position: 0 -312px;
+    padding-top: 96px;
+  }
+
+  40% {
+    background-position: 0 -288px;
+    padding-top: 120px;
+  }
+
+  43.33333% {
+    background-position: 0 -264px;
+    padding-top: 144px;
+  }
+
+  46.66667% {
+    background-position: 0 -240px;
+    padding-top: 168px;
+  }
+
+  50% {
+    background-position: 0 -216px;
+    padding-top: 192px;
+  }
+
+  53.33333% {
+    background-position: 0 -192px;
+    padding-top: 216px;
+  }
+
+  56.66667% {
+    background-position: 0 -168px;
+    padding-top: 240px;
+  }
+
+  60% {
+    background-position: 0 -144px;
+    padding-top: 264px;
+  }
+
+  63.33333% {
+    background-position: 0 -120px;
+    padding-top: 288px;
+  }
+
+  66.66667% {
+    background-position: 0 -96px;
+    padding-top: 312px;
+  }
+
+  70% {
+    background-position: 0 -72px;
+    padding-top: 336px;
+  }
+
+  73.33333% {
+    background-position: 0 -48px;
+    padding-top: 360px;
+  }
+
+  76.66667% {
+    background-position: 0 -24px;
+    padding-top: 384px;
+  }
+
+  80% {
+    background-position: 0 0px;
+    padding-top: 408px;
+  }
+
+  83.33333% {
+    background-position: 0 24px;
+    padding-top: 432px;
+  }
+
+  86.66667% {
+    background-position: 0 48px;
+    padding-top: 456px;
+  }
+
+  90% {
+    background-position: 0 72px;
+    padding-top: 480px;
+  }
+
+  93.33333% {
+    background-position: 0 96px;
+    padding-top: 504px;
+  }
+
+  96.66667% {
+    background-position: 0 120px;
+    padding-top: 528px;
+  }
+}
+
+.matrix li:nth-child(25) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(25):before {
+  display: block;
+  width: 1em;
+  content: "タ バ た き タ し タ リ し ン た ば ク リ ラ タ ワ ン ウ ク タ ウ ク ラ わ ょ コ タ フ し";
+}
+.matrix li:nth-child(25):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 528px, #000000 528px, #000000 720px) 0 -432px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "タ";
+  padding-top: 96px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-25 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-25 {
+  0% {
+    background-position: 0 -432px;
+    padding-top: 96px;
+  }
+
+  3.33333% {
+    background-position: 0 -408px;
+    padding-top: 120px;
+  }
+
+  6.66667% {
+    background-position: 0 -384px;
+    padding-top: 144px;
+  }
+
+  10% {
+    background-position: 0 -360px;
+    padding-top: 168px;
+  }
+
+  13.33333% {
+    background-position: 0 -336px;
+    padding-top: 192px;
+  }
+
+  16.66667% {
+    background-position: 0 -312px;
+    padding-top: 216px;
+  }
+
+  20% {
+    background-position: 0 -288px;
+    padding-top: 240px;
+  }
+
+  23.33333% {
+    background-position: 0 -264px;
+    padding-top: 264px;
+  }
+
+  26.66667% {
+    background-position: 0 -240px;
+    padding-top: 288px;
+  }
+
+  30% {
+    background-position: 0 -216px;
+    padding-top: 312px;
+  }
+
+  33.33333% {
+    background-position: 0 -192px;
+    padding-top: 336px;
+  }
+
+  36.66667% {
+    background-position: 0 -168px;
+    padding-top: 360px;
+  }
+
+  40% {
+    background-position: 0 -144px;
+    padding-top: 384px;
+  }
+
+  43.33333% {
+    background-position: 0 -120px;
+    padding-top: 408px;
+  }
+
+  46.66667% {
+    background-position: 0 -96px;
+    padding-top: 432px;
+  }
+
+  50% {
+    background-position: 0 -72px;
+    padding-top: 456px;
+  }
+
+  53.33333% {
+    background-position: 0 -48px;
+    padding-top: 480px;
+  }
+
+  56.66667% {
+    background-position: 0 -24px;
+    padding-top: 504px;
+  }
+
+  60% {
+    background-position: 0 0px;
+    padding-top: 528px;
+  }
+
+  63.33333% {
+    background-position: 0 24px;
+    padding-top: 552px;
+  }
+
+  66.66667% {
+    background-position: 0 48px;
+    padding-top: 576px;
+  }
+
+  70% {
+    background-position: 0 72px;
+    padding-top: 600px;
+  }
+
+  73.33333% {
+    background-position: 0 96px;
+    padding-top: 624px;
+  }
+
+  76.66667% {
+    background-position: 0 120px;
+    padding-top: 648px;
+  }
+
+  80% {
+    background-position: 0 144px;
+    padding-top: 672px;
+  }
+
+  83.33333% {
+    background-position: 0 168px;
+    padding-top: 696px;
+  }
+
+  86.66667% {
+    background-position: 0 -528px;
+    padding-top: 0px;
+  }
+
+  90% {
+    background-position: 0 -504px;
+    padding-top: 24px;
+  }
+
+  93.33333% {
+    background-position: 0 -480px;
+    padding-top: 48px;
+  }
+
+  96.66667% {
+    background-position: 0 -456px;
+    padding-top: 72px;
+  }
+}
+
+.matrix li:nth-child(26) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(26):before {
+  display: block;
+  width: 1em;
+  content: "ド ド マ ょ ょ と ン バ ト リ う コ ョ ラ こ マ ョ と ソ た た ラ し ン ド き ワ し フ マ";
+}
+.matrix li:nth-child(26):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 552px, #000000 552px, #000000 720px) 0 -384px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "バ";
+  padding-top: 168px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-26 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-26 {
+  0% {
+    background-position: 0 -384px;
+    padding-top: 168px;
+  }
+
+  3.33333% {
+    background-position: 0 -360px;
+    padding-top: 192px;
+  }
+
+  6.66667% {
+    background-position: 0 -336px;
+    padding-top: 216px;
+  }
+
+  10% {
+    background-position: 0 -312px;
+    padding-top: 240px;
+  }
+
+  13.33333% {
+    background-position: 0 -288px;
+    padding-top: 264px;
+  }
+
+  16.66667% {
+    background-position: 0 -264px;
+    padding-top: 288px;
+  }
+
+  20% {
+    background-position: 0 -240px;
+    padding-top: 312px;
+  }
+
+  23.33333% {
+    background-position: 0 -216px;
+    padding-top: 336px;
+  }
+
+  26.66667% {
+    background-position: 0 -192px;
+    padding-top: 360px;
+  }
+
+  30% {
+    background-position: 0 -168px;
+    padding-top: 384px;
+  }
+
+  33.33333% {
+    background-position: 0 -144px;
+    padding-top: 408px;
+  }
+
+  36.66667% {
+    background-position: 0 -120px;
+    padding-top: 432px;
+  }
+
+  40% {
+    background-position: 0 -96px;
+    padding-top: 456px;
+  }
+
+  43.33333% {
+    background-position: 0 -72px;
+    padding-top: 480px;
+  }
+
+  46.66667% {
+    background-position: 0 -48px;
+    padding-top: 504px;
+  }
+
+  50% {
+    background-position: 0 -24px;
+    padding-top: 528px;
+  }
+
+  53.33333% {
+    background-position: 0 0px;
+    padding-top: 552px;
+  }
+
+  56.66667% {
+    background-position: 0 24px;
+    padding-top: 576px;
+  }
+
+  60% {
+    background-position: 0 48px;
+    padding-top: 600px;
+  }
+
+  63.33333% {
+    background-position: 0 72px;
+    padding-top: 624px;
+  }
+
+  66.66667% {
+    background-position: 0 96px;
+    padding-top: 648px;
+  }
+
+  70% {
+    background-position: 0 120px;
+    padding-top: 672px;
+  }
+
+  73.33333% {
+    background-position: 0 144px;
+    padding-top: 696px;
+  }
+
+  76.66667% {
+    background-position: 0 -552px;
+    padding-top: 0px;
+  }
+
+  80% {
+    background-position: 0 -528px;
+    padding-top: 24px;
+  }
+
+  83.33333% {
+    background-position: 0 -504px;
+    padding-top: 48px;
+  }
+
+  86.66667% {
+    background-position: 0 -480px;
+    padding-top: 72px;
+  }
+
+  90% {
+    background-position: 0 -456px;
+    padding-top: 96px;
+  }
+
+  93.33333% {
+    background-position: 0 -432px;
+    padding-top: 120px;
+  }
+
+  96.66667% {
+    background-position: 0 -408px;
+    padding-top: 144px;
+  }
+}
+
+.matrix li:nth-child(27) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(27):before {
+  display: block;
+  width: 1em;
+  content: "ワ ョ マ し ト う う ク フ ん し ド ド と ょ し わ き ん う ん う ト と わ う ン ば ラ マ";
+}
+.matrix li:nth-child(27):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 552px, #000000 552px, #000000 720px) 0 0px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "と";
+  padding-top: 552px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-27 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-27 {
+  0% {
+    background-position: 0 0px;
+    padding-top: 552px;
+  }
+
+  3.33333% {
+    background-position: 0 24px;
+    padding-top: 576px;
+  }
+
+  6.66667% {
+    background-position: 0 48px;
+    padding-top: 600px;
+  }
+
+  10% {
+    background-position: 0 72px;
+    padding-top: 624px;
+  }
+
+  13.33333% {
+    background-position: 0 96px;
+    padding-top: 648px;
+  }
+
+  16.66667% {
+    background-position: 0 120px;
+    padding-top: 672px;
+  }
+
+  20% {
+    background-position: 0 144px;
+    padding-top: 696px;
+  }
+
+  23.33333% {
+    background-position: 0 -552px;
+    padding-top: 0px;
+  }
+
+  26.66667% {
+    background-position: 0 -528px;
+    padding-top: 24px;
+  }
+
+  30% {
+    background-position: 0 -504px;
+    padding-top: 48px;
+  }
+
+  33.33333% {
+    background-position: 0 -480px;
+    padding-top: 72px;
+  }
+
+  36.66667% {
+    background-position: 0 -456px;
+    padding-top: 96px;
+  }
+
+  40% {
+    background-position: 0 -432px;
+    padding-top: 120px;
+  }
+
+  43.33333% {
+    background-position: 0 -408px;
+    padding-top: 144px;
+  }
+
+  46.66667% {
+    background-position: 0 -384px;
+    padding-top: 168px;
+  }
+
+  50% {
+    background-position: 0 -360px;
+    padding-top: 192px;
+  }
+
+  53.33333% {
+    background-position: 0 -336px;
+    padding-top: 216px;
+  }
+
+  56.66667% {
+    background-position: 0 -312px;
+    padding-top: 240px;
+  }
+
+  60% {
+    background-position: 0 -288px;
+    padding-top: 264px;
+  }
+
+  63.33333% {
+    background-position: 0 -264px;
+    padding-top: 288px;
+  }
+
+  66.66667% {
+    background-position: 0 -240px;
+    padding-top: 312px;
+  }
+
+  70% {
+    background-position: 0 -216px;
+    padding-top: 336px;
+  }
+
+  73.33333% {
+    background-position: 0 -192px;
+    padding-top: 360px;
+  }
+
+  76.66667% {
+    background-position: 0 -168px;
+    padding-top: 384px;
+  }
+
+  80% {
+    background-position: 0 -144px;
+    padding-top: 408px;
+  }
+
+  83.33333% {
+    background-position: 0 -120px;
+    padding-top: 432px;
+  }
+
+  86.66667% {
+    background-position: 0 -96px;
+    padding-top: 456px;
+  }
+
+  90% {
+    background-position: 0 -72px;
+    padding-top: 480px;
+  }
+
+  93.33333% {
+    background-position: 0 -48px;
+    padding-top: 504px;
+  }
+
+  96.66667% {
+    background-position: 0 -24px;
+    padding-top: 528px;
+  }
+}
+
+.matrix li:nth-child(28) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(28):before {
+  display: block;
+  width: 1em;
+  content: "た ラ キ き コ マ ょ キ ン ト と う バ ク ょ ウ ょ ョ マ ワ う マ ょ う ョ マ リ ク キ ョ";
+}
+.matrix li:nth-child(28):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 672px, #000000 672px, #000000 720px) 0 -48px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "リ";
+  padding-top: 624px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-28 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-28 {
+  0% {
+    background-position: 0 -48px;
+    padding-top: 624px;
+  }
+
+  3.33333% {
+    background-position: 0 -24px;
+    padding-top: 648px;
+  }
+
+  6.66667% {
+    background-position: 0 0px;
+    padding-top: 672px;
+  }
+
+  10% {
+    background-position: 0 24px;
+    padding-top: 696px;
+  }
+
+  13.33333% {
+    background-position: 0 -672px;
+    padding-top: 0px;
+  }
+
+  16.66667% {
+    background-position: 0 -648px;
+    padding-top: 24px;
+  }
+
+  20% {
+    background-position: 0 -624px;
+    padding-top: 48px;
+  }
+
+  23.33333% {
+    background-position: 0 -600px;
+    padding-top: 72px;
+  }
+
+  26.66667% {
+    background-position: 0 -576px;
+    padding-top: 96px;
+  }
+
+  30% {
+    background-position: 0 -552px;
+    padding-top: 120px;
+  }
+
+  33.33333% {
+    background-position: 0 -528px;
+    padding-top: 144px;
+  }
+
+  36.66667% {
+    background-position: 0 -504px;
+    padding-top: 168px;
+  }
+
+  40% {
+    background-position: 0 -480px;
+    padding-top: 192px;
+  }
+
+  43.33333% {
+    background-position: 0 -456px;
+    padding-top: 216px;
+  }
+
+  46.66667% {
+    background-position: 0 -432px;
+    padding-top: 240px;
+  }
+
+  50% {
+    background-position: 0 -408px;
+    padding-top: 264px;
+  }
+
+  53.33333% {
+    background-position: 0 -384px;
+    padding-top: 288px;
+  }
+
+  56.66667% {
+    background-position: 0 -360px;
+    padding-top: 312px;
+  }
+
+  60% {
+    background-position: 0 -336px;
+    padding-top: 336px;
+  }
+
+  63.33333% {
+    background-position: 0 -312px;
+    padding-top: 360px;
+  }
+
+  66.66667% {
+    background-position: 0 -288px;
+    padding-top: 384px;
+  }
+
+  70% {
+    background-position: 0 -264px;
+    padding-top: 408px;
+  }
+
+  73.33333% {
+    background-position: 0 -240px;
+    padding-top: 432px;
+  }
+
+  76.66667% {
+    background-position: 0 -216px;
+    padding-top: 456px;
+  }
+
+  80% {
+    background-position: 0 -192px;
+    padding-top: 480px;
+  }
+
+  83.33333% {
+    background-position: 0 -168px;
+    padding-top: 504px;
+  }
+
+  86.66667% {
+    background-position: 0 -144px;
+    padding-top: 528px;
+  }
+
+  90% {
+    background-position: 0 -120px;
+    padding-top: 552px;
+  }
+
+  93.33333% {
+    background-position: 0 -96px;
+    padding-top: 576px;
+  }
+
+  96.66667% {
+    background-position: 0 -72px;
+    padding-top: 600px;
+  }
+}
+
+.matrix li:nth-child(29) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(29):before {
+  display: block;
+  width: 1em;
+  content: "わ ン バ リ ン き ン フ し ワ う う う こ ョ ョ ラ ん タ ん ョ リ ウ ん ウ ド ョ ン ば と";
+}
+.matrix li:nth-child(29):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 264px, #000000 264px, #000000 720px) 0 144px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ん";
+  padding-top: 408px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-29 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-29 {
+  0% {
+    background-position: 0 144px;
+    padding-top: 408px;
+  }
+
+  3.33333% {
+    background-position: 0 168px;
+    padding-top: 432px;
+  }
+
+  6.66667% {
+    background-position: 0 192px;
+    padding-top: 456px;
+  }
+
+  10% {
+    background-position: 0 216px;
+    padding-top: 480px;
+  }
+
+  13.33333% {
+    background-position: 0 240px;
+    padding-top: 504px;
+  }
+
+  16.66667% {
+    background-position: 0 264px;
+    padding-top: 528px;
+  }
+
+  20% {
+    background-position: 0 288px;
+    padding-top: 552px;
+  }
+
+  23.33333% {
+    background-position: 0 312px;
+    padding-top: 576px;
+  }
+
+  26.66667% {
+    background-position: 0 336px;
+    padding-top: 600px;
+  }
+
+  30% {
+    background-position: 0 360px;
+    padding-top: 624px;
+  }
+
+  33.33333% {
+    background-position: 0 384px;
+    padding-top: 648px;
+  }
+
+  36.66667% {
+    background-position: 0 408px;
+    padding-top: 672px;
+  }
+
+  40% {
+    background-position: 0 432px;
+    padding-top: 696px;
+  }
+
+  43.33333% {
+    background-position: 0 -264px;
+    padding-top: 0px;
+  }
+
+  46.66667% {
+    background-position: 0 -240px;
+    padding-top: 24px;
+  }
+
+  50% {
+    background-position: 0 -216px;
+    padding-top: 48px;
+  }
+
+  53.33333% {
+    background-position: 0 -192px;
+    padding-top: 72px;
+  }
+
+  56.66667% {
+    background-position: 0 -168px;
+    padding-top: 96px;
+  }
+
+  60% {
+    background-position: 0 -144px;
+    padding-top: 120px;
+  }
+
+  63.33333% {
+    background-position: 0 -120px;
+    padding-top: 144px;
+  }
+
+  66.66667% {
+    background-position: 0 -96px;
+    padding-top: 168px;
+  }
+
+  70% {
+    background-position: 0 -72px;
+    padding-top: 192px;
+  }
+
+  73.33333% {
+    background-position: 0 -48px;
+    padding-top: 216px;
+  }
+
+  76.66667% {
+    background-position: 0 -24px;
+    padding-top: 240px;
+  }
+
+  80% {
+    background-position: 0 0px;
+    padding-top: 264px;
+  }
+
+  83.33333% {
+    background-position: 0 24px;
+    padding-top: 288px;
+  }
+
+  86.66667% {
+    background-position: 0 48px;
+    padding-top: 312px;
+  }
+
+  90% {
+    background-position: 0 72px;
+    padding-top: 336px;
+  }
+
+  93.33333% {
+    background-position: 0 96px;
+    padding-top: 360px;
+  }
+
+  96.66667% {
+    background-position: 0 120px;
+    padding-top: 384px;
+  }
+}
+
+.matrix li:nth-child(30) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(30):before {
+  display: block;
+  width: 1em;
+  content: "ラ き ょ ん た ウ リ ワ ラ ド ョ う ド ウ コ し ょ ン ラ ド ン ョ ワ キ ン バ ク ン た た";
+}
+.matrix li:nth-child(30):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 216px, #000000 216px, #000000 720px) 0 -72px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "リ";
+  padding-top: 144px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-30 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-30 {
+  0% {
+    background-position: 0 -72px;
+    padding-top: 144px;
+  }
+
+  3.33333% {
+    background-position: 0 -48px;
+    padding-top: 168px;
+  }
+
+  6.66667% {
+    background-position: 0 -24px;
+    padding-top: 192px;
+  }
+
+  10% {
+    background-position: 0 0px;
+    padding-top: 216px;
+  }
+
+  13.33333% {
+    background-position: 0 24px;
+    padding-top: 240px;
+  }
+
+  16.66667% {
+    background-position: 0 48px;
+    padding-top: 264px;
+  }
+
+  20% {
+    background-position: 0 72px;
+    padding-top: 288px;
+  }
+
+  23.33333% {
+    background-position: 0 96px;
+    padding-top: 312px;
+  }
+
+  26.66667% {
+    background-position: 0 120px;
+    padding-top: 336px;
+  }
+
+  30% {
+    background-position: 0 144px;
+    padding-top: 360px;
+  }
+
+  33.33333% {
+    background-position: 0 168px;
+    padding-top: 384px;
+  }
+
+  36.66667% {
+    background-position: 0 192px;
+    padding-top: 408px;
+  }
+
+  40% {
+    background-position: 0 216px;
+    padding-top: 432px;
+  }
+
+  43.33333% {
+    background-position: 0 240px;
+    padding-top: 456px;
+  }
+
+  46.66667% {
+    background-position: 0 264px;
+    padding-top: 480px;
+  }
+
+  50% {
+    background-position: 0 288px;
+    padding-top: 504px;
+  }
+
+  53.33333% {
+    background-position: 0 312px;
+    padding-top: 528px;
+  }
+
+  56.66667% {
+    background-position: 0 336px;
+    padding-top: 552px;
+  }
+
+  60% {
+    background-position: 0 360px;
+    padding-top: 576px;
+  }
+
+  63.33333% {
+    background-position: 0 384px;
+    padding-top: 600px;
+  }
+
+  66.66667% {
+    background-position: 0 408px;
+    padding-top: 624px;
+  }
+
+  70% {
+    background-position: 0 432px;
+    padding-top: 648px;
+  }
+
+  73.33333% {
+    background-position: 0 456px;
+    padding-top: 672px;
+  }
+
+  76.66667% {
+    background-position: 0 480px;
+    padding-top: 696px;
+  }
+
+  80% {
+    background-position: 0 -216px;
+    padding-top: 0px;
+  }
+
+  83.33333% {
+    background-position: 0 -192px;
+    padding-top: 24px;
+  }
+
+  86.66667% {
+    background-position: 0 -168px;
+    padding-top: 48px;
+  }
+
+  90% {
+    background-position: 0 -144px;
+    padding-top: 72px;
+  }
+
+  93.33333% {
+    background-position: 0 -120px;
+    padding-top: 96px;
+  }
+
+  96.66667% {
+    background-position: 0 -96px;
+    padding-top: 120px;
+  }
+}
+
+.matrix li:nth-child(31) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(31):before {
+  display: block;
+  width: 1em;
+  content: "シ ウ タ タ た と こ ン う た ド ョ リ コ タ シ タ こ バ き ん コ ン た ョ リ ラ リ リ し";
+}
+.matrix li:nth-child(31):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 624px, #000000 624px, #000000 720px) 0 -576px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "タ";
+  padding-top: 48px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-31 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-31 {
+  0% {
+    background-position: 0 -576px;
+    padding-top: 48px;
+  }
+
+  3.33333% {
+    background-position: 0 -552px;
+    padding-top: 72px;
+  }
+
+  6.66667% {
+    background-position: 0 -528px;
+    padding-top: 96px;
+  }
+
+  10% {
+    background-position: 0 -504px;
+    padding-top: 120px;
+  }
+
+  13.33333% {
+    background-position: 0 -480px;
+    padding-top: 144px;
+  }
+
+  16.66667% {
+    background-position: 0 -456px;
+    padding-top: 168px;
+  }
+
+  20% {
+    background-position: 0 -432px;
+    padding-top: 192px;
+  }
+
+  23.33333% {
+    background-position: 0 -408px;
+    padding-top: 216px;
+  }
+
+  26.66667% {
+    background-position: 0 -384px;
+    padding-top: 240px;
+  }
+
+  30% {
+    background-position: 0 -360px;
+    padding-top: 264px;
+  }
+
+  33.33333% {
+    background-position: 0 -336px;
+    padding-top: 288px;
+  }
+
+  36.66667% {
+    background-position: 0 -312px;
+    padding-top: 312px;
+  }
+
+  40% {
+    background-position: 0 -288px;
+    padding-top: 336px;
+  }
+
+  43.33333% {
+    background-position: 0 -264px;
+    padding-top: 360px;
+  }
+
+  46.66667% {
+    background-position: 0 -240px;
+    padding-top: 384px;
+  }
+
+  50% {
+    background-position: 0 -216px;
+    padding-top: 408px;
+  }
+
+  53.33333% {
+    background-position: 0 -192px;
+    padding-top: 432px;
+  }
+
+  56.66667% {
+    background-position: 0 -168px;
+    padding-top: 456px;
+  }
+
+  60% {
+    background-position: 0 -144px;
+    padding-top: 480px;
+  }
+
+  63.33333% {
+    background-position: 0 -120px;
+    padding-top: 504px;
+  }
+
+  66.66667% {
+    background-position: 0 -96px;
+    padding-top: 528px;
+  }
+
+  70% {
+    background-position: 0 -72px;
+    padding-top: 552px;
+  }
+
+  73.33333% {
+    background-position: 0 -48px;
+    padding-top: 576px;
+  }
+
+  76.66667% {
+    background-position: 0 -24px;
+    padding-top: 600px;
+  }
+
+  80% {
+    background-position: 0 0px;
+    padding-top: 624px;
+  }
+
+  83.33333% {
+    background-position: 0 24px;
+    padding-top: 648px;
+  }
+
+  86.66667% {
+    background-position: 0 48px;
+    padding-top: 672px;
+  }
+
+  90% {
+    background-position: 0 72px;
+    padding-top: 696px;
+  }
+
+  93.33333% {
+    background-position: 0 -624px;
+    padding-top: 0px;
+  }
+
+  96.66667% {
+    background-position: 0 -600px;
+    padding-top: 24px;
+  }
+}
+
+.matrix li:nth-child(32) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(32):before {
+  display: block;
+  width: 1em;
+  content: "ク と フ ワ キ し キ う ド ソ う ン と ド わ ク ラ ウ と た ラ バ ク バ ん ラ ト ょ ワ ソ";
+}
+.matrix li:nth-child(32):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 624px, #000000 624px, #000000 720px) 0 -360px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ン";
+  padding-top: 264px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-32 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-32 {
+  0% {
+    background-position: 0 -360px;
+    padding-top: 264px;
+  }
+
+  3.33333% {
+    background-position: 0 -336px;
+    padding-top: 288px;
+  }
+
+  6.66667% {
+    background-position: 0 -312px;
+    padding-top: 312px;
+  }
+
+  10% {
+    background-position: 0 -288px;
+    padding-top: 336px;
+  }
+
+  13.33333% {
+    background-position: 0 -264px;
+    padding-top: 360px;
+  }
+
+  16.66667% {
+    background-position: 0 -240px;
+    padding-top: 384px;
+  }
+
+  20% {
+    background-position: 0 -216px;
+    padding-top: 408px;
+  }
+
+  23.33333% {
+    background-position: 0 -192px;
+    padding-top: 432px;
+  }
+
+  26.66667% {
+    background-position: 0 -168px;
+    padding-top: 456px;
+  }
+
+  30% {
+    background-position: 0 -144px;
+    padding-top: 480px;
+  }
+
+  33.33333% {
+    background-position: 0 -120px;
+    padding-top: 504px;
+  }
+
+  36.66667% {
+    background-position: 0 -96px;
+    padding-top: 528px;
+  }
+
+  40% {
+    background-position: 0 -72px;
+    padding-top: 552px;
+  }
+
+  43.33333% {
+    background-position: 0 -48px;
+    padding-top: 576px;
+  }
+
+  46.66667% {
+    background-position: 0 -24px;
+    padding-top: 600px;
+  }
+
+  50% {
+    background-position: 0 0px;
+    padding-top: 624px;
+  }
+
+  53.33333% {
+    background-position: 0 24px;
+    padding-top: 648px;
+  }
+
+  56.66667% {
+    background-position: 0 48px;
+    padding-top: 672px;
+  }
+
+  60% {
+    background-position: 0 72px;
+    padding-top: 696px;
+  }
+
+  63.33333% {
+    background-position: 0 -624px;
+    padding-top: 0px;
+  }
+
+  66.66667% {
+    background-position: 0 -600px;
+    padding-top: 24px;
+  }
+
+  70% {
+    background-position: 0 -576px;
+    padding-top: 48px;
+  }
+
+  73.33333% {
+    background-position: 0 -552px;
+    padding-top: 72px;
+  }
+
+  76.66667% {
+    background-position: 0 -528px;
+    padding-top: 96px;
+  }
+
+  80% {
+    background-position: 0 -504px;
+    padding-top: 120px;
+  }
+
+  83.33333% {
+    background-position: 0 -480px;
+    padding-top: 144px;
+  }
+
+  86.66667% {
+    background-position: 0 -456px;
+    padding-top: 168px;
+  }
+
+  90% {
+    background-position: 0 -432px;
+    padding-top: 192px;
+  }
+
+  93.33333% {
+    background-position: 0 -408px;
+    padding-top: 216px;
+  }
+
+  96.66667% {
+    background-position: 0 -384px;
+    padding-top: 240px;
+  }
+}
+
+.matrix li:nth-child(33) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(33):before {
+  display: block;
+  width: 1em;
+  content: "き ワ リ き タ リ コ た ウ ば ク ょ ワ フ う ソ た ョ フ た ン し コ う た き ワ ト ワ ラ";
+}
+.matrix li:nth-child(33):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 552px, #000000 552px, #000000 720px) 0 -384px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "た";
+  padding-top: 168px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-33 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-33 {
+  0% {
+    background-position: 0 -384px;
+    padding-top: 168px;
+  }
+
+  3.33333% {
+    background-position: 0 -360px;
+    padding-top: 192px;
+  }
+
+  6.66667% {
+    background-position: 0 -336px;
+    padding-top: 216px;
+  }
+
+  10% {
+    background-position: 0 -312px;
+    padding-top: 240px;
+  }
+
+  13.33333% {
+    background-position: 0 -288px;
+    padding-top: 264px;
+  }
+
+  16.66667% {
+    background-position: 0 -264px;
+    padding-top: 288px;
+  }
+
+  20% {
+    background-position: 0 -240px;
+    padding-top: 312px;
+  }
+
+  23.33333% {
+    background-position: 0 -216px;
+    padding-top: 336px;
+  }
+
+  26.66667% {
+    background-position: 0 -192px;
+    padding-top: 360px;
+  }
+
+  30% {
+    background-position: 0 -168px;
+    padding-top: 384px;
+  }
+
+  33.33333% {
+    background-position: 0 -144px;
+    padding-top: 408px;
+  }
+
+  36.66667% {
+    background-position: 0 -120px;
+    padding-top: 432px;
+  }
+
+  40% {
+    background-position: 0 -96px;
+    padding-top: 456px;
+  }
+
+  43.33333% {
+    background-position: 0 -72px;
+    padding-top: 480px;
+  }
+
+  46.66667% {
+    background-position: 0 -48px;
+    padding-top: 504px;
+  }
+
+  50% {
+    background-position: 0 -24px;
+    padding-top: 528px;
+  }
+
+  53.33333% {
+    background-position: 0 0px;
+    padding-top: 552px;
+  }
+
+  56.66667% {
+    background-position: 0 24px;
+    padding-top: 576px;
+  }
+
+  60% {
+    background-position: 0 48px;
+    padding-top: 600px;
+  }
+
+  63.33333% {
+    background-position: 0 72px;
+    padding-top: 624px;
+  }
+
+  66.66667% {
+    background-position: 0 96px;
+    padding-top: 648px;
+  }
+
+  70% {
+    background-position: 0 120px;
+    padding-top: 672px;
+  }
+
+  73.33333% {
+    background-position: 0 144px;
+    padding-top: 696px;
+  }
+
+  76.66667% {
+    background-position: 0 -552px;
+    padding-top: 0px;
+  }
+
+  80% {
+    background-position: 0 -528px;
+    padding-top: 24px;
+  }
+
+  83.33333% {
+    background-position: 0 -504px;
+    padding-top: 48px;
+  }
+
+  86.66667% {
+    background-position: 0 -480px;
+    padding-top: 72px;
+  }
+
+  90% {
+    background-position: 0 -456px;
+    padding-top: 96px;
+  }
+
+  93.33333% {
+    background-position: 0 -432px;
+    padding-top: 120px;
+  }
+
+  96.66667% {
+    background-position: 0 -408px;
+    padding-top: 144px;
+  }
+}
+
+.matrix li:nth-child(34) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(34):before {
+  display: block;
+  width: 1em;
+  content: "ん ょ ン ン ソ し ょ ょ ワ う ワ ド ょ ト ソ ラ コ き タ ョ ょ ん ョ こ タ リ ン ク ん タ";
+}
+.matrix li:nth-child(34):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 216px, #000000 216px, #000000 720px) 0 216px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "タ";
+  padding-top: 432px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-34 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-34 {
+  0% {
+    background-position: 0 216px;
+    padding-top: 432px;
+  }
+
+  3.33333% {
+    background-position: 0 240px;
+    padding-top: 456px;
+  }
+
+  6.66667% {
+    background-position: 0 264px;
+    padding-top: 480px;
+  }
+
+  10% {
+    background-position: 0 288px;
+    padding-top: 504px;
+  }
+
+  13.33333% {
+    background-position: 0 312px;
+    padding-top: 528px;
+  }
+
+  16.66667% {
+    background-position: 0 336px;
+    padding-top: 552px;
+  }
+
+  20% {
+    background-position: 0 360px;
+    padding-top: 576px;
+  }
+
+  23.33333% {
+    background-position: 0 384px;
+    padding-top: 600px;
+  }
+
+  26.66667% {
+    background-position: 0 408px;
+    padding-top: 624px;
+  }
+
+  30% {
+    background-position: 0 432px;
+    padding-top: 648px;
+  }
+
+  33.33333% {
+    background-position: 0 456px;
+    padding-top: 672px;
+  }
+
+  36.66667% {
+    background-position: 0 480px;
+    padding-top: 696px;
+  }
+
+  40% {
+    background-position: 0 -216px;
+    padding-top: 0px;
+  }
+
+  43.33333% {
+    background-position: 0 -192px;
+    padding-top: 24px;
+  }
+
+  46.66667% {
+    background-position: 0 -168px;
+    padding-top: 48px;
+  }
+
+  50% {
+    background-position: 0 -144px;
+    padding-top: 72px;
+  }
+
+  53.33333% {
+    background-position: 0 -120px;
+    padding-top: 96px;
+  }
+
+  56.66667% {
+    background-position: 0 -96px;
+    padding-top: 120px;
+  }
+
+  60% {
+    background-position: 0 -72px;
+    padding-top: 144px;
+  }
+
+  63.33333% {
+    background-position: 0 -48px;
+    padding-top: 168px;
+  }
+
+  66.66667% {
+    background-position: 0 -24px;
+    padding-top: 192px;
+  }
+
+  70% {
+    background-position: 0 0px;
+    padding-top: 216px;
+  }
+
+  73.33333% {
+    background-position: 0 24px;
+    padding-top: 240px;
+  }
+
+  76.66667% {
+    background-position: 0 48px;
+    padding-top: 264px;
+  }
+
+  80% {
+    background-position: 0 72px;
+    padding-top: 288px;
+  }
+
+  83.33333% {
+    background-position: 0 96px;
+    padding-top: 312px;
+  }
+
+  86.66667% {
+    background-position: 0 120px;
+    padding-top: 336px;
+  }
+
+  90% {
+    background-position: 0 144px;
+    padding-top: 360px;
+  }
+
+  93.33333% {
+    background-position: 0 168px;
+    padding-top: 384px;
+  }
+
+  96.66667% {
+    background-position: 0 192px;
+    padding-top: 408px;
+  }
+}
+
+.matrix li:nth-child(35) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(35):before {
+  display: block;
+  width: 1em;
+  content: "ク タ と ソ マ う ワ タ た ょ シ シ リ う ド ク バ ょ と し た た ョ ソ ド ワ ラ ン ラ フ";
+}
+.matrix li:nth-child(35):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 456px, #000000 456px, #000000 720px) 0 -96px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ク";
+  padding-top: 360px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-35 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-35 {
+  0% {
+    background-position: 0 -96px;
+    padding-top: 360px;
+  }
+
+  3.33333% {
+    background-position: 0 -72px;
+    padding-top: 384px;
+  }
+
+  6.66667% {
+    background-position: 0 -48px;
+    padding-top: 408px;
+  }
+
+  10% {
+    background-position: 0 -24px;
+    padding-top: 432px;
+  }
+
+  13.33333% {
+    background-position: 0 0px;
+    padding-top: 456px;
+  }
+
+  16.66667% {
+    background-position: 0 24px;
+    padding-top: 480px;
+  }
+
+  20% {
+    background-position: 0 48px;
+    padding-top: 504px;
+  }
+
+  23.33333% {
+    background-position: 0 72px;
+    padding-top: 528px;
+  }
+
+  26.66667% {
+    background-position: 0 96px;
+    padding-top: 552px;
+  }
+
+  30% {
+    background-position: 0 120px;
+    padding-top: 576px;
+  }
+
+  33.33333% {
+    background-position: 0 144px;
+    padding-top: 600px;
+  }
+
+  36.66667% {
+    background-position: 0 168px;
+    padding-top: 624px;
+  }
+
+  40% {
+    background-position: 0 192px;
+    padding-top: 648px;
+  }
+
+  43.33333% {
+    background-position: 0 216px;
+    padding-top: 672px;
+  }
+
+  46.66667% {
+    background-position: 0 240px;
+    padding-top: 696px;
+  }
+
+  50% {
+    background-position: 0 -456px;
+    padding-top: 0px;
+  }
+
+  53.33333% {
+    background-position: 0 -432px;
+    padding-top: 24px;
+  }
+
+  56.66667% {
+    background-position: 0 -408px;
+    padding-top: 48px;
+  }
+
+  60% {
+    background-position: 0 -384px;
+    padding-top: 72px;
+  }
+
+  63.33333% {
+    background-position: 0 -360px;
+    padding-top: 96px;
+  }
+
+  66.66667% {
+    background-position: 0 -336px;
+    padding-top: 120px;
+  }
+
+  70% {
+    background-position: 0 -312px;
+    padding-top: 144px;
+  }
+
+  73.33333% {
+    background-position: 0 -288px;
+    padding-top: 168px;
+  }
+
+  76.66667% {
+    background-position: 0 -264px;
+    padding-top: 192px;
+  }
+
+  80% {
+    background-position: 0 -240px;
+    padding-top: 216px;
+  }
+
+  83.33333% {
+    background-position: 0 -216px;
+    padding-top: 240px;
+  }
+
+  86.66667% {
+    background-position: 0 -192px;
+    padding-top: 264px;
+  }
+
+  90% {
+    background-position: 0 -168px;
+    padding-top: 288px;
+  }
+
+  93.33333% {
+    background-position: 0 -144px;
+    padding-top: 312px;
+  }
+
+  96.66667% {
+    background-position: 0 -120px;
+    padding-top: 336px;
+  }
+}
+
+.matrix li:nth-child(36) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(36):before {
+  display: block;
+  width: 1em;
+  content: "フ タ う ト う フ う こ リ こ キ う ソ リ ド ド ラ コ た タ ょ キ シ ク ョ ク う ラ ワ ン";
+}
+.matrix li:nth-child(36):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 96px, #000000 96px, #000000 720px) 0 576px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ワ";
+  padding-top: 672px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-36 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-36 {
+  0% {
+    background-position: 0 576px;
+    padding-top: 672px;
+  }
+
+  3.33333% {
+    background-position: 0 600px;
+    padding-top: 696px;
+  }
+
+  6.66667% {
+    background-position: 0 -96px;
+    padding-top: 0px;
+  }
+
+  10% {
+    background-position: 0 -72px;
+    padding-top: 24px;
+  }
+
+  13.33333% {
+    background-position: 0 -48px;
+    padding-top: 48px;
+  }
+
+  16.66667% {
+    background-position: 0 -24px;
+    padding-top: 72px;
+  }
+
+  20% {
+    background-position: 0 0px;
+    padding-top: 96px;
+  }
+
+  23.33333% {
+    background-position: 0 24px;
+    padding-top: 120px;
+  }
+
+  26.66667% {
+    background-position: 0 48px;
+    padding-top: 144px;
+  }
+
+  30% {
+    background-position: 0 72px;
+    padding-top: 168px;
+  }
+
+  33.33333% {
+    background-position: 0 96px;
+    padding-top: 192px;
+  }
+
+  36.66667% {
+    background-position: 0 120px;
+    padding-top: 216px;
+  }
+
+  40% {
+    background-position: 0 144px;
+    padding-top: 240px;
+  }
+
+  43.33333% {
+    background-position: 0 168px;
+    padding-top: 264px;
+  }
+
+  46.66667% {
+    background-position: 0 192px;
+    padding-top: 288px;
+  }
+
+  50% {
+    background-position: 0 216px;
+    padding-top: 312px;
+  }
+
+  53.33333% {
+    background-position: 0 240px;
+    padding-top: 336px;
+  }
+
+  56.66667% {
+    background-position: 0 264px;
+    padding-top: 360px;
+  }
+
+  60% {
+    background-position: 0 288px;
+    padding-top: 384px;
+  }
+
+  63.33333% {
+    background-position: 0 312px;
+    padding-top: 408px;
+  }
+
+  66.66667% {
+    background-position: 0 336px;
+    padding-top: 432px;
+  }
+
+  70% {
+    background-position: 0 360px;
+    padding-top: 456px;
+  }
+
+  73.33333% {
+    background-position: 0 384px;
+    padding-top: 480px;
+  }
+
+  76.66667% {
+    background-position: 0 408px;
+    padding-top: 504px;
+  }
+
+  80% {
+    background-position: 0 432px;
+    padding-top: 528px;
+  }
+
+  83.33333% {
+    background-position: 0 456px;
+    padding-top: 552px;
+  }
+
+  86.66667% {
+    background-position: 0 480px;
+    padding-top: 576px;
+  }
+
+  90% {
+    background-position: 0 504px;
+    padding-top: 600px;
+  }
+
+  93.33333% {
+    background-position: 0 528px;
+    padding-top: 624px;
+  }
+
+  96.66667% {
+    background-position: 0 552px;
+    padding-top: 648px;
+  }
+}
+
+.matrix li:nth-child(37) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(37):before {
+  display: block;
+  width: 1em;
+  content: "と ラ し ウ う ド う キ ョ ソ フ ク バ う バ バ バ ん ラ ょ こ ラ わ ン ウ た キ マ ウ ン";
+}
+.matrix li:nth-child(37):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 360px, #000000 360px, #000000 720px) 0 -192px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "キ";
+  padding-top: 168px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-37 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-37 {
+  0% {
+    background-position: 0 -192px;
+    padding-top: 168px;
+  }
+
+  3.33333% {
+    background-position: 0 -168px;
+    padding-top: 192px;
+  }
+
+  6.66667% {
+    background-position: 0 -144px;
+    padding-top: 216px;
+  }
+
+  10% {
+    background-position: 0 -120px;
+    padding-top: 240px;
+  }
+
+  13.33333% {
+    background-position: 0 -96px;
+    padding-top: 264px;
+  }
+
+  16.66667% {
+    background-position: 0 -72px;
+    padding-top: 288px;
+  }
+
+  20% {
+    background-position: 0 -48px;
+    padding-top: 312px;
+  }
+
+  23.33333% {
+    background-position: 0 -24px;
+    padding-top: 336px;
+  }
+
+  26.66667% {
+    background-position: 0 0px;
+    padding-top: 360px;
+  }
+
+  30% {
+    background-position: 0 24px;
+    padding-top: 384px;
+  }
+
+  33.33333% {
+    background-position: 0 48px;
+    padding-top: 408px;
+  }
+
+  36.66667% {
+    background-position: 0 72px;
+    padding-top: 432px;
+  }
+
+  40% {
+    background-position: 0 96px;
+    padding-top: 456px;
+  }
+
+  43.33333% {
+    background-position: 0 120px;
+    padding-top: 480px;
+  }
+
+  46.66667% {
+    background-position: 0 144px;
+    padding-top: 504px;
+  }
+
+  50% {
+    background-position: 0 168px;
+    padding-top: 528px;
+  }
+
+  53.33333% {
+    background-position: 0 192px;
+    padding-top: 552px;
+  }
+
+  56.66667% {
+    background-position: 0 216px;
+    padding-top: 576px;
+  }
+
+  60% {
+    background-position: 0 240px;
+    padding-top: 600px;
+  }
+
+  63.33333% {
+    background-position: 0 264px;
+    padding-top: 624px;
+  }
+
+  66.66667% {
+    background-position: 0 288px;
+    padding-top: 648px;
+  }
+
+  70% {
+    background-position: 0 312px;
+    padding-top: 672px;
+  }
+
+  73.33333% {
+    background-position: 0 336px;
+    padding-top: 696px;
+  }
+
+  76.66667% {
+    background-position: 0 -360px;
+    padding-top: 0px;
+  }
+
+  80% {
+    background-position: 0 -336px;
+    padding-top: 24px;
+  }
+
+  83.33333% {
+    background-position: 0 -312px;
+    padding-top: 48px;
+  }
+
+  86.66667% {
+    background-position: 0 -288px;
+    padding-top: 72px;
+  }
+
+  90% {
+    background-position: 0 -264px;
+    padding-top: 96px;
+  }
+
+  93.33333% {
+    background-position: 0 -240px;
+    padding-top: 120px;
+  }
+
+  96.66667% {
+    background-position: 0 -216px;
+    padding-top: 144px;
+  }
+}
+
+.matrix li:nth-child(38) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(38):before {
+  display: block;
+  width: 1em;
+  content: "ト ン ょ バ ン ラ こ ク ョ ば ょ う タ ょ ウ こ フ バ ン タ と ク し た ラ た ば き シ ょ";
+}
+.matrix li:nth-child(38):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 456px, #000000 456px, #000000 720px) 0 -312px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "こ";
+  padding-top: 144px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-38 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-38 {
+  0% {
+    background-position: 0 -312px;
+    padding-top: 144px;
+  }
+
+  3.33333% {
+    background-position: 0 -288px;
+    padding-top: 168px;
+  }
+
+  6.66667% {
+    background-position: 0 -264px;
+    padding-top: 192px;
+  }
+
+  10% {
+    background-position: 0 -240px;
+    padding-top: 216px;
+  }
+
+  13.33333% {
+    background-position: 0 -216px;
+    padding-top: 240px;
+  }
+
+  16.66667% {
+    background-position: 0 -192px;
+    padding-top: 264px;
+  }
+
+  20% {
+    background-position: 0 -168px;
+    padding-top: 288px;
+  }
+
+  23.33333% {
+    background-position: 0 -144px;
+    padding-top: 312px;
+  }
+
+  26.66667% {
+    background-position: 0 -120px;
+    padding-top: 336px;
+  }
+
+  30% {
+    background-position: 0 -96px;
+    padding-top: 360px;
+  }
+
+  33.33333% {
+    background-position: 0 -72px;
+    padding-top: 384px;
+  }
+
+  36.66667% {
+    background-position: 0 -48px;
+    padding-top: 408px;
+  }
+
+  40% {
+    background-position: 0 -24px;
+    padding-top: 432px;
+  }
+
+  43.33333% {
+    background-position: 0 0px;
+    padding-top: 456px;
+  }
+
+  46.66667% {
+    background-position: 0 24px;
+    padding-top: 480px;
+  }
+
+  50% {
+    background-position: 0 48px;
+    padding-top: 504px;
+  }
+
+  53.33333% {
+    background-position: 0 72px;
+    padding-top: 528px;
+  }
+
+  56.66667% {
+    background-position: 0 96px;
+    padding-top: 552px;
+  }
+
+  60% {
+    background-position: 0 120px;
+    padding-top: 576px;
+  }
+
+  63.33333% {
+    background-position: 0 144px;
+    padding-top: 600px;
+  }
+
+  66.66667% {
+    background-position: 0 168px;
+    padding-top: 624px;
+  }
+
+  70% {
+    background-position: 0 192px;
+    padding-top: 648px;
+  }
+
+  73.33333% {
+    background-position: 0 216px;
+    padding-top: 672px;
+  }
+
+  76.66667% {
+    background-position: 0 240px;
+    padding-top: 696px;
+  }
+
+  80% {
+    background-position: 0 -456px;
+    padding-top: 0px;
+  }
+
+  83.33333% {
+    background-position: 0 -432px;
+    padding-top: 24px;
+  }
+
+  86.66667% {
+    background-position: 0 -408px;
+    padding-top: 48px;
+  }
+
+  90% {
+    background-position: 0 -384px;
+    padding-top: 72px;
+  }
+
+  93.33333% {
+    background-position: 0 -360px;
+    padding-top: 96px;
+  }
+
+  96.66667% {
+    background-position: 0 -336px;
+    padding-top: 120px;
+  }
+}
+
+.matrix li:nth-child(39) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(39):before {
+  display: block;
+  width: 1em;
+  content: "わ ド ク ト た ョ シ ょ ト フ う シ ン ラ ト ソ こ リ き ソ ラ し ウ ラ シ と ソ キ こ コ";
+}
+.matrix li:nth-child(39):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 528px, #000000 528px, #000000 720px) 0 -408px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ョ";
+  padding-top: 120px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-39 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-39 {
+  0% {
+    background-position: 0 -408px;
+    padding-top: 120px;
+  }
+
+  3.33333% {
+    background-position: 0 -384px;
+    padding-top: 144px;
+  }
+
+  6.66667% {
+    background-position: 0 -360px;
+    padding-top: 168px;
+  }
+
+  10% {
+    background-position: 0 -336px;
+    padding-top: 192px;
+  }
+
+  13.33333% {
+    background-position: 0 -312px;
+    padding-top: 216px;
+  }
+
+  16.66667% {
+    background-position: 0 -288px;
+    padding-top: 240px;
+  }
+
+  20% {
+    background-position: 0 -264px;
+    padding-top: 264px;
+  }
+
+  23.33333% {
+    background-position: 0 -240px;
+    padding-top: 288px;
+  }
+
+  26.66667% {
+    background-position: 0 -216px;
+    padding-top: 312px;
+  }
+
+  30% {
+    background-position: 0 -192px;
+    padding-top: 336px;
+  }
+
+  33.33333% {
+    background-position: 0 -168px;
+    padding-top: 360px;
+  }
+
+  36.66667% {
+    background-position: 0 -144px;
+    padding-top: 384px;
+  }
+
+  40% {
+    background-position: 0 -120px;
+    padding-top: 408px;
+  }
+
+  43.33333% {
+    background-position: 0 -96px;
+    padding-top: 432px;
+  }
+
+  46.66667% {
+    background-position: 0 -72px;
+    padding-top: 456px;
+  }
+
+  50% {
+    background-position: 0 -48px;
+    padding-top: 480px;
+  }
+
+  53.33333% {
+    background-position: 0 -24px;
+    padding-top: 504px;
+  }
+
+  56.66667% {
+    background-position: 0 0px;
+    padding-top: 528px;
+  }
+
+  60% {
+    background-position: 0 24px;
+    padding-top: 552px;
+  }
+
+  63.33333% {
+    background-position: 0 48px;
+    padding-top: 576px;
+  }
+
+  66.66667% {
+    background-position: 0 72px;
+    padding-top: 600px;
+  }
+
+  70% {
+    background-position: 0 96px;
+    padding-top: 624px;
+  }
+
+  73.33333% {
+    background-position: 0 120px;
+    padding-top: 648px;
+  }
+
+  76.66667% {
+    background-position: 0 144px;
+    padding-top: 672px;
+  }
+
+  80% {
+    background-position: 0 168px;
+    padding-top: 696px;
+  }
+
+  83.33333% {
+    background-position: 0 -528px;
+    padding-top: 0px;
+  }
+
+  86.66667% {
+    background-position: 0 -504px;
+    padding-top: 24px;
+  }
+
+  90% {
+    background-position: 0 -480px;
+    padding-top: 48px;
+  }
+
+  93.33333% {
+    background-position: 0 -456px;
+    padding-top: 72px;
+  }
+
+  96.66667% {
+    background-position: 0 -432px;
+    padding-top: 96px;
+  }
+}
+
+.matrix li:nth-child(40) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(40):before {
+  display: block;
+  width: 1em;
+  content: "ば う フ タ ョ た マ た バ こ フ ョ ソ フ う ラ き ん わ と ワ ラ ク ョ わ ラ ワ バ た キ";
+}
+.matrix li:nth-child(40):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 576px, #000000 576px, #000000 720px) 0 -168px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ん";
+  padding-top: 408px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-40 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-40 {
+  0% {
+    background-position: 0 -168px;
+    padding-top: 408px;
+  }
+
+  3.33333% {
+    background-position: 0 -144px;
+    padding-top: 432px;
+  }
+
+  6.66667% {
+    background-position: 0 -120px;
+    padding-top: 456px;
+  }
+
+  10% {
+    background-position: 0 -96px;
+    padding-top: 480px;
+  }
+
+  13.33333% {
+    background-position: 0 -72px;
+    padding-top: 504px;
+  }
+
+  16.66667% {
+    background-position: 0 -48px;
+    padding-top: 528px;
+  }
+
+  20% {
+    background-position: 0 -24px;
+    padding-top: 552px;
+  }
+
+  23.33333% {
+    background-position: 0 0px;
+    padding-top: 576px;
+  }
+
+  26.66667% {
+    background-position: 0 24px;
+    padding-top: 600px;
+  }
+
+  30% {
+    background-position: 0 48px;
+    padding-top: 624px;
+  }
+
+  33.33333% {
+    background-position: 0 72px;
+    padding-top: 648px;
+  }
+
+  36.66667% {
+    background-position: 0 96px;
+    padding-top: 672px;
+  }
+
+  40% {
+    background-position: 0 120px;
+    padding-top: 696px;
+  }
+
+  43.33333% {
+    background-position: 0 -576px;
+    padding-top: 0px;
+  }
+
+  46.66667% {
+    background-position: 0 -552px;
+    padding-top: 24px;
+  }
+
+  50% {
+    background-position: 0 -528px;
+    padding-top: 48px;
+  }
+
+  53.33333% {
+    background-position: 0 -504px;
+    padding-top: 72px;
+  }
+
+  56.66667% {
+    background-position: 0 -480px;
+    padding-top: 96px;
+  }
+
+  60% {
+    background-position: 0 -456px;
+    padding-top: 120px;
+  }
+
+  63.33333% {
+    background-position: 0 -432px;
+    padding-top: 144px;
+  }
+
+  66.66667% {
+    background-position: 0 -408px;
+    padding-top: 168px;
+  }
+
+  70% {
+    background-position: 0 -384px;
+    padding-top: 192px;
+  }
+
+  73.33333% {
+    background-position: 0 -360px;
+    padding-top: 216px;
+  }
+
+  76.66667% {
+    background-position: 0 -336px;
+    padding-top: 240px;
+  }
+
+  80% {
+    background-position: 0 -312px;
+    padding-top: 264px;
+  }
+
+  83.33333% {
+    background-position: 0 -288px;
+    padding-top: 288px;
+  }
+
+  86.66667% {
+    background-position: 0 -264px;
+    padding-top: 312px;
+  }
+
+  90% {
+    background-position: 0 -240px;
+    padding-top: 336px;
+  }
+
+  93.33333% {
+    background-position: 0 -216px;
+    padding-top: 360px;
+  }
+
+  96.66667% {
+    background-position: 0 -192px;
+    padding-top: 384px;
+  }
+}
+
+.matrix li:nth-child(41) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(41):before {
+  display: block;
+  width: 1em;
+  content: "フ シ ト キ た マ ョ ト ソ ョ た ト こ コ ソ ラ ン き わ ば バ し こ コ と ョ た タ タ わ";
+}
+.matrix li:nth-child(41):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 192px, #000000 192px, #000000 720px) 0 192px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ン";
+  padding-top: 384px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-41 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-41 {
+  0% {
+    background-position: 0 192px;
+    padding-top: 384px;
+  }
+
+  3.33333% {
+    background-position: 0 216px;
+    padding-top: 408px;
+  }
+
+  6.66667% {
+    background-position: 0 240px;
+    padding-top: 432px;
+  }
+
+  10% {
+    background-position: 0 264px;
+    padding-top: 456px;
+  }
+
+  13.33333% {
+    background-position: 0 288px;
+    padding-top: 480px;
+  }
+
+  16.66667% {
+    background-position: 0 312px;
+    padding-top: 504px;
+  }
+
+  20% {
+    background-position: 0 336px;
+    padding-top: 528px;
+  }
+
+  23.33333% {
+    background-position: 0 360px;
+    padding-top: 552px;
+  }
+
+  26.66667% {
+    background-position: 0 384px;
+    padding-top: 576px;
+  }
+
+  30% {
+    background-position: 0 408px;
+    padding-top: 600px;
+  }
+
+  33.33333% {
+    background-position: 0 432px;
+    padding-top: 624px;
+  }
+
+  36.66667% {
+    background-position: 0 456px;
+    padding-top: 648px;
+  }
+
+  40% {
+    background-position: 0 480px;
+    padding-top: 672px;
+  }
+
+  43.33333% {
+    background-position: 0 504px;
+    padding-top: 696px;
+  }
+
+  46.66667% {
+    background-position: 0 -192px;
+    padding-top: 0px;
+  }
+
+  50% {
+    background-position: 0 -168px;
+    padding-top: 24px;
+  }
+
+  53.33333% {
+    background-position: 0 -144px;
+    padding-top: 48px;
+  }
+
+  56.66667% {
+    background-position: 0 -120px;
+    padding-top: 72px;
+  }
+
+  60% {
+    background-position: 0 -96px;
+    padding-top: 96px;
+  }
+
+  63.33333% {
+    background-position: 0 -72px;
+    padding-top: 120px;
+  }
+
+  66.66667% {
+    background-position: 0 -48px;
+    padding-top: 144px;
+  }
+
+  70% {
+    background-position: 0 -24px;
+    padding-top: 168px;
+  }
+
+  73.33333% {
+    background-position: 0 0px;
+    padding-top: 192px;
+  }
+
+  76.66667% {
+    background-position: 0 24px;
+    padding-top: 216px;
+  }
+
+  80% {
+    background-position: 0 48px;
+    padding-top: 240px;
+  }
+
+  83.33333% {
+    background-position: 0 72px;
+    padding-top: 264px;
+  }
+
+  86.66667% {
+    background-position: 0 96px;
+    padding-top: 288px;
+  }
+
+  90% {
+    background-position: 0 120px;
+    padding-top: 312px;
+  }
+
+  93.33333% {
+    background-position: 0 144px;
+    padding-top: 336px;
+  }
+
+  96.66667% {
+    background-position: 0 168px;
+    padding-top: 360px;
+  }
+}
+
+.matrix li:nth-child(42) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(42):before {
+  display: block;
+  width: 1em;
+  content: "と ん ト う シ う わ ン フ タ ク ョ ク ば こ タ バ し バ き ょ タ キ ン ク ラ ば ラ コ こ";
+}
+.matrix li:nth-child(42):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 288px, #000000 288px, #000000 720px) 0 0px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ク";
+  padding-top: 288px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-42 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-42 {
+  0% {
+    background-position: 0 0px;
+    padding-top: 288px;
+  }
+
+  3.33333% {
+    background-position: 0 24px;
+    padding-top: 312px;
+  }
+
+  6.66667% {
+    background-position: 0 48px;
+    padding-top: 336px;
+  }
+
+  10% {
+    background-position: 0 72px;
+    padding-top: 360px;
+  }
+
+  13.33333% {
+    background-position: 0 96px;
+    padding-top: 384px;
+  }
+
+  16.66667% {
+    background-position: 0 120px;
+    padding-top: 408px;
+  }
+
+  20% {
+    background-position: 0 144px;
+    padding-top: 432px;
+  }
+
+  23.33333% {
+    background-position: 0 168px;
+    padding-top: 456px;
+  }
+
+  26.66667% {
+    background-position: 0 192px;
+    padding-top: 480px;
+  }
+
+  30% {
+    background-position: 0 216px;
+    padding-top: 504px;
+  }
+
+  33.33333% {
+    background-position: 0 240px;
+    padding-top: 528px;
+  }
+
+  36.66667% {
+    background-position: 0 264px;
+    padding-top: 552px;
+  }
+
+  40% {
+    background-position: 0 288px;
+    padding-top: 576px;
+  }
+
+  43.33333% {
+    background-position: 0 312px;
+    padding-top: 600px;
+  }
+
+  46.66667% {
+    background-position: 0 336px;
+    padding-top: 624px;
+  }
+
+  50% {
+    background-position: 0 360px;
+    padding-top: 648px;
+  }
+
+  53.33333% {
+    background-position: 0 384px;
+    padding-top: 672px;
+  }
+
+  56.66667% {
+    background-position: 0 408px;
+    padding-top: 696px;
+  }
+
+  60% {
+    background-position: 0 -288px;
+    padding-top: 0px;
+  }
+
+  63.33333% {
+    background-position: 0 -264px;
+    padding-top: 24px;
+  }
+
+  66.66667% {
+    background-position: 0 -240px;
+    padding-top: 48px;
+  }
+
+  70% {
+    background-position: 0 -216px;
+    padding-top: 72px;
+  }
+
+  73.33333% {
+    background-position: 0 -192px;
+    padding-top: 96px;
+  }
+
+  76.66667% {
+    background-position: 0 -168px;
+    padding-top: 120px;
+  }
+
+  80% {
+    background-position: 0 -144px;
+    padding-top: 144px;
+  }
+
+  83.33333% {
+    background-position: 0 -120px;
+    padding-top: 168px;
+  }
+
+  86.66667% {
+    background-position: 0 -96px;
+    padding-top: 192px;
+  }
+
+  90% {
+    background-position: 0 -72px;
+    padding-top: 216px;
+  }
+
+  93.33333% {
+    background-position: 0 -48px;
+    padding-top: 240px;
+  }
+
+  96.66667% {
+    background-position: 0 -24px;
+    padding-top: 264px;
+  }
+}
+
+.matrix li:nth-child(43) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(43):before {
+  display: block;
+  width: 1em;
+  content: "ン ソ ク バ こ バ ド ド き ば う わ ょ シ と た ン と う ワ バ タ た ん ワ わ マ ょ ト ョ";
+}
+.matrix li:nth-child(43):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 576px, #000000 576px, #000000 720px) 0 -312px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "わ";
+  padding-top: 264px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-43 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-43 {
+  0% {
+    background-position: 0 -312px;
+    padding-top: 264px;
+  }
+
+  3.33333% {
+    background-position: 0 -288px;
+    padding-top: 288px;
+  }
+
+  6.66667% {
+    background-position: 0 -264px;
+    padding-top: 312px;
+  }
+
+  10% {
+    background-position: 0 -240px;
+    padding-top: 336px;
+  }
+
+  13.33333% {
+    background-position: 0 -216px;
+    padding-top: 360px;
+  }
+
+  16.66667% {
+    background-position: 0 -192px;
+    padding-top: 384px;
+  }
+
+  20% {
+    background-position: 0 -168px;
+    padding-top: 408px;
+  }
+
+  23.33333% {
+    background-position: 0 -144px;
+    padding-top: 432px;
+  }
+
+  26.66667% {
+    background-position: 0 -120px;
+    padding-top: 456px;
+  }
+
+  30% {
+    background-position: 0 -96px;
+    padding-top: 480px;
+  }
+
+  33.33333% {
+    background-position: 0 -72px;
+    padding-top: 504px;
+  }
+
+  36.66667% {
+    background-position: 0 -48px;
+    padding-top: 528px;
+  }
+
+  40% {
+    background-position: 0 -24px;
+    padding-top: 552px;
+  }
+
+  43.33333% {
+    background-position: 0 0px;
+    padding-top: 576px;
+  }
+
+  46.66667% {
+    background-position: 0 24px;
+    padding-top: 600px;
+  }
+
+  50% {
+    background-position: 0 48px;
+    padding-top: 624px;
+  }
+
+  53.33333% {
+    background-position: 0 72px;
+    padding-top: 648px;
+  }
+
+  56.66667% {
+    background-position: 0 96px;
+    padding-top: 672px;
+  }
+
+  60% {
+    background-position: 0 120px;
+    padding-top: 696px;
+  }
+
+  63.33333% {
+    background-position: 0 -576px;
+    padding-top: 0px;
+  }
+
+  66.66667% {
+    background-position: 0 -552px;
+    padding-top: 24px;
+  }
+
+  70% {
+    background-position: 0 -528px;
+    padding-top: 48px;
+  }
+
+  73.33333% {
+    background-position: 0 -504px;
+    padding-top: 72px;
+  }
+
+  76.66667% {
+    background-position: 0 -480px;
+    padding-top: 96px;
+  }
+
+  80% {
+    background-position: 0 -456px;
+    padding-top: 120px;
+  }
+
+  83.33333% {
+    background-position: 0 -432px;
+    padding-top: 144px;
+  }
+
+  86.66667% {
+    background-position: 0 -408px;
+    padding-top: 168px;
+  }
+
+  90% {
+    background-position: 0 -384px;
+    padding-top: 192px;
+  }
+
+  93.33333% {
+    background-position: 0 -360px;
+    padding-top: 216px;
+  }
+
+  96.66667% {
+    background-position: 0 -336px;
+    padding-top: 240px;
+  }
+}
+
+.matrix li:nth-child(44) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(44):before {
+  display: block;
+  width: 1em;
+  content: "ワ こ ワ と ょ き た ト キ シ ョ わ ク マ こ ワ き ラ ク ラ タ う ワ ド わ し フ し こ ド";
+}
+.matrix li:nth-child(44):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 528px, #000000 528px, #000000 720px) 0 -240px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ク";
+  padding-top: 288px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-44 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-44 {
+  0% {
+    background-position: 0 -240px;
+    padding-top: 288px;
+  }
+
+  3.33333% {
+    background-position: 0 -216px;
+    padding-top: 312px;
+  }
+
+  6.66667% {
+    background-position: 0 -192px;
+    padding-top: 336px;
+  }
+
+  10% {
+    background-position: 0 -168px;
+    padding-top: 360px;
+  }
+
+  13.33333% {
+    background-position: 0 -144px;
+    padding-top: 384px;
+  }
+
+  16.66667% {
+    background-position: 0 -120px;
+    padding-top: 408px;
+  }
+
+  20% {
+    background-position: 0 -96px;
+    padding-top: 432px;
+  }
+
+  23.33333% {
+    background-position: 0 -72px;
+    padding-top: 456px;
+  }
+
+  26.66667% {
+    background-position: 0 -48px;
+    padding-top: 480px;
+  }
+
+  30% {
+    background-position: 0 -24px;
+    padding-top: 504px;
+  }
+
+  33.33333% {
+    background-position: 0 0px;
+    padding-top: 528px;
+  }
+
+  36.66667% {
+    background-position: 0 24px;
+    padding-top: 552px;
+  }
+
+  40% {
+    background-position: 0 48px;
+    padding-top: 576px;
+  }
+
+  43.33333% {
+    background-position: 0 72px;
+    padding-top: 600px;
+  }
+
+  46.66667% {
+    background-position: 0 96px;
+    padding-top: 624px;
+  }
+
+  50% {
+    background-position: 0 120px;
+    padding-top: 648px;
+  }
+
+  53.33333% {
+    background-position: 0 144px;
+    padding-top: 672px;
+  }
+
+  56.66667% {
+    background-position: 0 168px;
+    padding-top: 696px;
+  }
+
+  60% {
+    background-position: 0 -528px;
+    padding-top: 0px;
+  }
+
+  63.33333% {
+    background-position: 0 -504px;
+    padding-top: 24px;
+  }
+
+  66.66667% {
+    background-position: 0 -480px;
+    padding-top: 48px;
+  }
+
+  70% {
+    background-position: 0 -456px;
+    padding-top: 72px;
+  }
+
+  73.33333% {
+    background-position: 0 -432px;
+    padding-top: 96px;
+  }
+
+  76.66667% {
+    background-position: 0 -408px;
+    padding-top: 120px;
+  }
+
+  80% {
+    background-position: 0 -384px;
+    padding-top: 144px;
+  }
+
+  83.33333% {
+    background-position: 0 -360px;
+    padding-top: 168px;
+  }
+
+  86.66667% {
+    background-position: 0 -336px;
+    padding-top: 192px;
+  }
+
+  90% {
+    background-position: 0 -312px;
+    padding-top: 216px;
+  }
+
+  93.33333% {
+    background-position: 0 -288px;
+    padding-top: 240px;
+  }
+
+  96.66667% {
+    background-position: 0 -264px;
+    padding-top: 264px;
+  }
+}
+
+.matrix li:nth-child(45) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(45):before {
+  display: block;
+  width: 1em;
+  content: "き ク ト リ ウ ン マ キ ソ ク た ョ リ ワ し う フ コ ョ た マ シ ラ ョ ば ょ ラ ド コ た";
+}
+.matrix li:nth-child(45):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 192px, #000000 192px, #000000 720px) 0 408px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "ょ";
+  padding-top: 600px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-45 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-45 {
+  0% {
+    background-position: 0 408px;
+    padding-top: 600px;
+  }
+
+  3.33333% {
+    background-position: 0 432px;
+    padding-top: 624px;
+  }
+
+  6.66667% {
+    background-position: 0 456px;
+    padding-top: 648px;
+  }
+
+  10% {
+    background-position: 0 480px;
+    padding-top: 672px;
+  }
+
+  13.33333% {
+    background-position: 0 504px;
+    padding-top: 696px;
+  }
+
+  16.66667% {
+    background-position: 0 -192px;
+    padding-top: 0px;
+  }
+
+  20% {
+    background-position: 0 -168px;
+    padding-top: 24px;
+  }
+
+  23.33333% {
+    background-position: 0 -144px;
+    padding-top: 48px;
+  }
+
+  26.66667% {
+    background-position: 0 -120px;
+    padding-top: 72px;
+  }
+
+  30% {
+    background-position: 0 -96px;
+    padding-top: 96px;
+  }
+
+  33.33333% {
+    background-position: 0 -72px;
+    padding-top: 120px;
+  }
+
+  36.66667% {
+    background-position: 0 -48px;
+    padding-top: 144px;
+  }
+
+  40% {
+    background-position: 0 -24px;
+    padding-top: 168px;
+  }
+
+  43.33333% {
+    background-position: 0 0px;
+    padding-top: 192px;
+  }
+
+  46.66667% {
+    background-position: 0 24px;
+    padding-top: 216px;
+  }
+
+  50% {
+    background-position: 0 48px;
+    padding-top: 240px;
+  }
+
+  53.33333% {
+    background-position: 0 72px;
+    padding-top: 264px;
+  }
+
+  56.66667% {
+    background-position: 0 96px;
+    padding-top: 288px;
+  }
+
+  60% {
+    background-position: 0 120px;
+    padding-top: 312px;
+  }
+
+  63.33333% {
+    background-position: 0 144px;
+    padding-top: 336px;
+  }
+
+  66.66667% {
+    background-position: 0 168px;
+    padding-top: 360px;
+  }
+
+  70% {
+    background-position: 0 192px;
+    padding-top: 384px;
+  }
+
+  73.33333% {
+    background-position: 0 216px;
+    padding-top: 408px;
+  }
+
+  76.66667% {
+    background-position: 0 240px;
+    padding-top: 432px;
+  }
+
+  80% {
+    background-position: 0 264px;
+    padding-top: 456px;
+  }
+
+  83.33333% {
+    background-position: 0 288px;
+    padding-top: 480px;
+  }
+
+  86.66667% {
+    background-position: 0 312px;
+    padding-top: 504px;
+  }
+
+  90% {
+    background-position: 0 336px;
+    padding-top: 528px;
+  }
+
+  93.33333% {
+    background-position: 0 360px;
+    padding-top: 552px;
+  }
+
+  96.66667% {
+    background-position: 0 384px;
+    padding-top: 576px;
+  }
+}
+
+.matrix li:nth-child(46) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(46):before {
+  display: block;
+  width: 1em;
+  content: "ン タ ョ こ ソ ラ ョ う ょ ソ ョ ょ わ リ ド ク ラ ん ん ド キ シ コ ト こ た フ ソ う と";
+}
+.matrix li:nth-child(46):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 672px, #000000 672px, #000000 720px) 0 -600px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "こ";
+  padding-top: 72px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-46 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-46 {
+  0% {
+    background-position: 0 -600px;
+    padding-top: 72px;
+  }
+
+  3.33333% {
+    background-position: 0 -576px;
+    padding-top: 96px;
+  }
+
+  6.66667% {
+    background-position: 0 -552px;
+    padding-top: 120px;
+  }
+
+  10% {
+    background-position: 0 -528px;
+    padding-top: 144px;
+  }
+
+  13.33333% {
+    background-position: 0 -504px;
+    padding-top: 168px;
+  }
+
+  16.66667% {
+    background-position: 0 -480px;
+    padding-top: 192px;
+  }
+
+  20% {
+    background-position: 0 -456px;
+    padding-top: 216px;
+  }
+
+  23.33333% {
+    background-position: 0 -432px;
+    padding-top: 240px;
+  }
+
+  26.66667% {
+    background-position: 0 -408px;
+    padding-top: 264px;
+  }
+
+  30% {
+    background-position: 0 -384px;
+    padding-top: 288px;
+  }
+
+  33.33333% {
+    background-position: 0 -360px;
+    padding-top: 312px;
+  }
+
+  36.66667% {
+    background-position: 0 -336px;
+    padding-top: 336px;
+  }
+
+  40% {
+    background-position: 0 -312px;
+    padding-top: 360px;
+  }
+
+  43.33333% {
+    background-position: 0 -288px;
+    padding-top: 384px;
+  }
+
+  46.66667% {
+    background-position: 0 -264px;
+    padding-top: 408px;
+  }
+
+  50% {
+    background-position: 0 -240px;
+    padding-top: 432px;
+  }
+
+  53.33333% {
+    background-position: 0 -216px;
+    padding-top: 456px;
+  }
+
+  56.66667% {
+    background-position: 0 -192px;
+    padding-top: 480px;
+  }
+
+  60% {
+    background-position: 0 -168px;
+    padding-top: 504px;
+  }
+
+  63.33333% {
+    background-position: 0 -144px;
+    padding-top: 528px;
+  }
+
+  66.66667% {
+    background-position: 0 -120px;
+    padding-top: 552px;
+  }
+
+  70% {
+    background-position: 0 -96px;
+    padding-top: 576px;
+  }
+
+  73.33333% {
+    background-position: 0 -72px;
+    padding-top: 600px;
+  }
+
+  76.66667% {
+    background-position: 0 -48px;
+    padding-top: 624px;
+  }
+
+  80% {
+    background-position: 0 -24px;
+    padding-top: 648px;
+  }
+
+  83.33333% {
+    background-position: 0 0px;
+    padding-top: 672px;
+  }
+
+  86.66667% {
+    background-position: 0 24px;
+    padding-top: 696px;
+  }
+
+  90% {
+    background-position: 0 -672px;
+    padding-top: 0px;
+  }
+
+  93.33333% {
+    background-position: 0 -648px;
+    padding-top: 24px;
+  }
+
+  96.66667% {
+    background-position: 0 -624px;
+    padding-top: 48px;
+  }
+}
+
+.matrix li:nth-child(47) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(47):before {
+  display: block;
+  width: 1em;
+  content: "マ ウ ラ ト こ た ん こ ラ ん マ ン ト マ マ た ン ょ た ソ ょ ウ ト ウ ラ コ マ ん リ リ";
+}
+.matrix li:nth-child(47):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 624px, #000000 624px, #000000 720px) 0 -24px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "コ";
+  padding-top: 600px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-47 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-47 {
+  0% {
+    background-position: 0 -24px;
+    padding-top: 600px;
+  }
+
+  3.33333% {
+    background-position: 0 0px;
+    padding-top: 624px;
+  }
+
+  6.66667% {
+    background-position: 0 24px;
+    padding-top: 648px;
+  }
+
+  10% {
+    background-position: 0 48px;
+    padding-top: 672px;
+  }
+
+  13.33333% {
+    background-position: 0 72px;
+    padding-top: 696px;
+  }
+
+  16.66667% {
+    background-position: 0 -624px;
+    padding-top: 0px;
+  }
+
+  20% {
+    background-position: 0 -600px;
+    padding-top: 24px;
+  }
+
+  23.33333% {
+    background-position: 0 -576px;
+    padding-top: 48px;
+  }
+
+  26.66667% {
+    background-position: 0 -552px;
+    padding-top: 72px;
+  }
+
+  30% {
+    background-position: 0 -528px;
+    padding-top: 96px;
+  }
+
+  33.33333% {
+    background-position: 0 -504px;
+    padding-top: 120px;
+  }
+
+  36.66667% {
+    background-position: 0 -480px;
+    padding-top: 144px;
+  }
+
+  40% {
+    background-position: 0 -456px;
+    padding-top: 168px;
+  }
+
+  43.33333% {
+    background-position: 0 -432px;
+    padding-top: 192px;
+  }
+
+  46.66667% {
+    background-position: 0 -408px;
+    padding-top: 216px;
+  }
+
+  50% {
+    background-position: 0 -384px;
+    padding-top: 240px;
+  }
+
+  53.33333% {
+    background-position: 0 -360px;
+    padding-top: 264px;
+  }
+
+  56.66667% {
+    background-position: 0 -336px;
+    padding-top: 288px;
+  }
+
+  60% {
+    background-position: 0 -312px;
+    padding-top: 312px;
+  }
+
+  63.33333% {
+    background-position: 0 -288px;
+    padding-top: 336px;
+  }
+
+  66.66667% {
+    background-position: 0 -264px;
+    padding-top: 360px;
+  }
+
+  70% {
+    background-position: 0 -240px;
+    padding-top: 384px;
+  }
+
+  73.33333% {
+    background-position: 0 -216px;
+    padding-top: 408px;
+  }
+
+  76.66667% {
+    background-position: 0 -192px;
+    padding-top: 432px;
+  }
+
+  80% {
+    background-position: 0 -168px;
+    padding-top: 456px;
+  }
+
+  83.33333% {
+    background-position: 0 -144px;
+    padding-top: 480px;
+  }
+
+  86.66667% {
+    background-position: 0 -120px;
+    padding-top: 504px;
+  }
+
+  90% {
+    background-position: 0 -96px;
+    padding-top: 528px;
+  }
+
+  93.33333% {
+    background-position: 0 -72px;
+    padding-top: 552px;
+  }
+
+  96.66667% {
+    background-position: 0 -48px;
+    padding-top: 576px;
+  }
+}
+
+.matrix li:nth-child(48) {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.matrix li:nth-child(48):before {
+  display: block;
+  width: 1em;
+  content: "ん ン ン た ク ラ う マ ん ン ょ タ こ シ ょ ョ た マ キ ン ョ き タ ソ ョ タ ラ ン ン キ";
+}
+.matrix li:nth-child(48):after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0) 408px, #000000 408px, #000000 720px) 0 -336px repeat;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  content: "た";
+  padding-top: 72px;
+  overflow: hidden;
+  -webkit-animation: 2400ms column-48 infinite steps(1, start);
+}
+
+@-webkit-keyframes column-48 {
+  0% {
+    background-position: 0 -336px;
+    padding-top: 72px;
+  }
+
+  3.33333% {
+    background-position: 0 -312px;
+    padding-top: 96px;
+  }
+
+  6.66667% {
+    background-position: 0 -288px;
+    padding-top: 120px;
+  }
+
+  10% {
+    background-position: 0 -264px;
+    padding-top: 144px;
+  }
+
+  13.33333% {
+    background-position: 0 -240px;
+    padding-top: 168px;
+  }
+
+  16.66667% {
+    background-position: 0 -216px;
+    padding-top: 192px;
+  }
+
+  20% {
+    background-position: 0 -192px;
+    padding-top: 216px;
+  }
+
+  23.33333% {
+    background-position: 0 -168px;
+    padding-top: 240px;
+  }
+
+  26.66667% {
+    background-position: 0 -144px;
+    padding-top: 264px;
+  }
+
+  30% {
+    background-position: 0 -120px;
+    padding-top: 288px;
+  }
+
+  33.33333% {
+    background-position: 0 -96px;
+    padding-top: 312px;
+  }
+
+  36.66667% {
+    background-position: 0 -72px;
+    padding-top: 336px;
+  }
+
+  40% {
+    background-position: 0 -48px;
+    padding-top: 360px;
+  }
+
+  43.33333% {
+    background-position: 0 -24px;
+    padding-top: 384px;
+  }
+
+  46.66667% {
+    background-position: 0 0px;
+    padding-top: 408px;
+  }
+
+  50% {
+    background-position: 0 24px;
+    padding-top: 432px;
+  }
+
+  53.33333% {
+    background-position: 0 48px;
+    padding-top: 456px;
+  }
+
+  56.66667% {
+    background-position: 0 72px;
+    padding-top: 480px;
+  }
+
+  60% {
+    background-position: 0 96px;
+    padding-top: 504px;
+  }
+
+  63.33333% {
+    background-position: 0 120px;
+    padding-top: 528px;
+  }
+
+  66.66667% {
+    background-position: 0 144px;
+    padding-top: 552px;
+  }
+
+  70% {
+    background-position: 0 168px;
+    padding-top: 576px;
+  }
+
+  73.33333% {
+    background-position: 0 192px;
+    padding-top: 600px;
+  }
+
+  76.66667% {
+    background-position: 0 216px;
+    padding-top: 624px;
+  }
+
+  80% {
+    background-position: 0 240px;
+    padding-top: 648px;
+  }
+
+  83.33333% {
+    background-position: 0 264px;
+    padding-top: 672px;
+  }
+
+  86.66667% {
+    background-position: 0 288px;
+    padding-top: 696px;
+  }
+
+  90% {
+    background-position: 0 -408px;
+    padding-top: 0px;
+  }
+
+  93.33333% {
+    background-position: 0 -384px;
+    padding-top: 24px;
+  }
+
+  96.66667% {
+    background-position: 0 -360px;
+    padding-top: 48px;
+  }
+}

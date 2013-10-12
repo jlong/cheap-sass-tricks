@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import "compass";
+
+$matrix-font-size: 18px;
+$matrix-line-height: 24px;
+$matrix-color: lighten(green, 50%);
+$matrix-width: 48;
+$matrix-height: 30;
+$matrix-characters: ラ ド ク リ フ マ ラ ソ ン わ た し ワ タ シ ん ょ ン ョ た ば こ タ バ コ と う き ょ う ト ウ キ ョ ウ;
+
+$nbsp: "\00a0";
+
+$frames-count: $matrix-height;
+
+@function rand($min: 1, $max: 100) {
+  @return random($max - $min) + $min;
+}
+
+@function random-character() {
+  $length: length($matrix-characters);
+  @return nth($matrix-characters, rand($max: $length));
+}
+
+@function new-column($height) {
+  $result: ();
+  $length: length($matrix-characters);
+  @for $i from 1 through $height {
+    $result: append($result, random-character());
+  }
+  @return $result;
+}
+
+@function create-columns($number) {
+  $columns: ();
+  @for $i from 1 through $height {
+    $columns: append($columns, new-column($matrix-height));
+  }
+  @return $columns;
+}
+
+body {
+  font-family: courier;
+  background: black;
+  overflow: hidden;
+}
+
+.matrix {
+  @include inline-list();
+  color: $matrix-color;
+  font-size: $matrix-font-size;
+  line-height: $matrix-line-height;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+@for $i from 1 through $matrix-width {
+  $column-height: rand(4, $matrix-height);
+  $column-position: rand(1, $matrix-height);
+  $column: new-column($matrix-height);
+
+  .matrix li:nth-child(#{$i}) {
+    position: relative;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+
+    &:before {
+      display: block;
+      width: 1em;
+      content: "#{$column}";
+    }
+
+    &:after {
+      @include box-sizing(border-box);
+      background: linear-gradient(
+        rgba(black, 1) 0,
+        rgba(black, 0) ($matrix-line-height * ($column-height - 1)),
+        rgba(black, 1) ($matrix-line-height * ($column-height - 1)),
+        rgba(black, 1) ($matrix-line-height * $matrix-height)
+      ) 0 ($matrix-line-height * ($column-position - $column-height)) repeat;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      color: white;
+      content: "#{nth($column, $column-position)}";
+      padding-top: ($column-position - 1) * $matrix-line-height;
+      overflow: hidden;
+      -webkit-animation: ($frames-count * 80ms) column-#{$i} infinite steps(1, start);
+    }
+  }
+
+  @-webkit-keyframes column-#{$i} {
+    @for $frame from 1 through $frames-count {
+      @if $column-position > $matrix-height { $column-position: 1; }
+      #{100% * ($frame - 1) / $frames-count} {
+        background-position: 0 ($matrix-line-height * ($column-position - $column-height));
+        padding-top: ($column-position - 1) * $matrix-line-height;
+      }
+      $column-position: $column-position + 1;
+    }
+  }
+}

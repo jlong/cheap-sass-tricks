@@ -1,4 +1,6 @@
-$dots-size: 98px;
+@import "base";
+
+$dots-size: 300px;
 $dots-colors: #f86 #fc6 #6d7 #4ae;
 $dots-speed: 5s;
 
@@ -15,135 +17,131 @@ $dot-position-2: ( 2 * $dots-segment) (-2 * $dots-segment);
 $dot-position-3: ( 2 * $dots-segment) ( 2 * $dots-segment);
 $dot-position-4: (-2 * $dots-segment) ( 2 * $dots-segment);
 
-@-webkit-keyframes dots {
+@include keyframes(dots) {
   0%   {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-1 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
   8.33% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-2 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
   16.67% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-3 0 $dots-segment,
       $dot-2 $dot-position-3 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
   25% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-4 0 $dots-segment,
       $dot-2 $dot-position-4 0 $dots-segment,
       $dot-3 $dot-position-4 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
   33.33% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-1 0 $dots-segment,
       $dot-2 $dot-position-4 0 $dots-segment,
       $dot-3 $dot-position-1 0 $dots-segment,
       $dot-4 $dot-position-1 0 $dots-segment
-    ;
+    );
   }
   41.67% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-2 0 $dots-segment,
       $dot-2 $dot-position-4 0 $dots-segment,
       $dot-3 $dot-position-1 0 $dots-segment,
       $dot-4 $dot-position-2 0 $dots-segment
-    ;
+    );
   }
   50% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-3 0 $dots-segment,
       $dot-2 $dot-position-4 0 $dots-segment,
       $dot-3 $dot-position-1 0 $dots-segment,
       $dot-4 $dot-position-2 0 $dots-segment
-    ;
+    );
   }
   58.33% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-4 0 $dots-segment,
       $dot-2 $dot-position-4 0 $dots-segment,
       $dot-3 $dot-position-1 0 $dots-segment,
       $dot-4 $dot-position-2 0 $dots-segment
-    ;
+    );
   }
   66.67% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-1 0 $dots-segment,
       $dot-2 $dot-position-1 0 $dots-segment,
       $dot-3 $dot-position-1 0 $dots-segment,
       $dot-4 $dot-position-2 0 $dots-segment
-    ;
+    );
   }
   75% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-2 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-2 0 $dots-segment,
       $dot-4 $dot-position-2 0 $dots-segment
-    ;
+    );
   }
   83.33% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-3 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-3 0 $dots-segment
-    ;
+    );
   }
   91.67% {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-4 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
   100%   {
-    box-shadow:
+    @include box-shadow(
       white 0 0 15px 0,
       $dot-1 $dot-position-1 0 $dots-segment,
       $dot-2 $dot-position-2 0 $dots-segment,
       $dot-3 $dot-position-3 0 $dots-segment,
       $dot-4 $dot-position-4 0 $dots-segment
-    ;
+    );
   }
-}
-
-body {
-  text-align: center;
-  padding: 100px;
 }
 
 /* Styles for old versions of IE */
 .dots {
   font-family: sans-serif;
   font-weight: 100;
+  margin-top: 100px;
 }
 
 /* :not(:required) hides this rule from IE9 and below */
@@ -158,13 +156,13 @@ body {
 
   background: transparent;
   border-radius: 100%;
-  box-shadow:
+  @include box-shadow(
     $dot-1 $dot-position-1 0 $dots-segment,
     $dot-2 $dot-position-2 0 $dots-segment,
     $dot-3 $dot-position-3 0 $dots-segment,
     $dot-4 $dot-position-4 0 $dots-segment
-  ;
+  );
 
-  -webkit-animation: dots $dots-speed infinite ease-in-out;
-  -webkit-transform-origin: 50% 50%;
+  @include animation(dots $dots-speed infinite ease-in-out);
+  @include transform-origin(50%, 50%);
 }

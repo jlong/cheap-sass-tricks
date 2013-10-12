@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'serve', '1.5.1'
 
@@ -6,7 +6,9 @@ gem 'serve', '1.5.1'
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
 # Use Compass and Sass
-gem 'compass'
+gem 'compass', :git => 'git@github.com:chriseppstein/compass.git'
+gem 'sass', :git => 'git@github.com:nex3/sass.git'
+gem 'sassy-math'
 
 # Markdown and Textile
 # gem 'rdiscount' # Markdown
