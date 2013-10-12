@@ -1,5 +1,5 @@
 // Variables
-$pixel-size: 5px;
+$pixel-size: 10px;
 
 // Colors
 $__: null;
@@ -325,9 +325,14 @@ $frames:
   @return $shadows;
 }
 
-body { padding: 3em; }
+body {
+  text-align: center;
+  padding: 150px 450px 150px 0;
+}
 
 .banana {
+  display: inline-block;
+  margin-left: $pixel-size * 10;
   -webkit-animation: pbjtime 0.8s steps(1, start) infinite;
   width: $pixel-size;
   height: $pixel-size;
